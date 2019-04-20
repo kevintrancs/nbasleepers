@@ -1,7 +1,5 @@
 import csv
 from csv import DictWriter, DictReader
-
-# NBA player data attribute headers
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
            'gp', 'pts', 'reb', 'ast', 'net_rating', 'usg_pct', 'ts_pct', 'ast_pct']
 
