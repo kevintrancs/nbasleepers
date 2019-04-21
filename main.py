@@ -1,6 +1,9 @@
 import csv
 import random
 import numpy as np
+import math
+from collections import Counter
+import operator
 from csv import DictWriter, DictReader
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
            'gp', 'pts', 'reb', 'ast', 'net_rating', 'usg_pct', 'ts_pct', 'ast_pct']
@@ -137,6 +140,62 @@ def normalize(xs, x):
     return (x - min(xs)) / ((max(xs) - min(xs)) * 1.0)
 
 
+def knn(table, k):
+
+    train, test = compute_holdout_partitions(table)
+
+    knn_train = []
+    knn_test = []
+    knn_test_names = []
+
+    for row in test:
+        knn_test_names.append(row[0])
+        knn_test.append(row[3::] + [int(row[1])])
+
+    for row in train:
+        knn_train.append(row[3::] + [int(row[1])])
+
+    for idx, row in enumerate(knn_train):
+        for ind, i in enumerate(row[:-1]):
+            xs = get_column(knn_train, ind)
+            knn_train[idx][ind] = normalize(xs, i)
+
+    for idx, row in enumerate(knn_test):
+        for ind, i in enumerate(row[:-1]):
+            xs = get_column(knn_test, ind)
+            knn_test[idx][ind] = normalize(xs, i)
+
+    for ind, i in enumerate(knn_test):
+        x = getNeighbors(knn_train, 7, knn_test[ind], 3)
+        print(knn_test_names[ind], " Predicted label: ",
+              int(x), " Actual: ", knn_test[ind][7])
+
+
+def compute_distance(v1, v2, length):
+    distance = 0
+    for x in range(length):
+        distance += pow((v1[x] - v2[x]), 2)
+    return math.sqrt(distance)
+
+
+def getNeighbors(training_set, n, instance, k):
+    row_distances = []
+    for row in training_set:
+        d = compute_distance(row, instance, n - 1)
+        row_distances.append([d, row])
+    row_distances.sort(key=operator.itemgetter(0))
+    neighbors = []
+    for x in range(k):
+        neighbors.append(row_distances[x][1])
+
+    lst = []
+    for ind, x in enumerate(neighbors):
+        lst.append(neighbors[ind][n])
+    data = Counter(lst)
+    return data.most_common(1)[0][0]
+
+
 if __name__ == '__main__':
     players = org_players('all_seasons.csv', headers)
     table = sort_to_table(players)
+    print(table[777])
