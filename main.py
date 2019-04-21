@@ -52,6 +52,10 @@ def generate_career_avgs(player):
     player.usg_pct = sum(player.usg_pct) / len(player.usg_pct)
     player.ts_pct = sum(player.ts_pct) / len(player.ts_pct)
     player.ast_pct = sum(player.ast_pct) / len(player.ast_pct)
+    if player.draft_number == "Undrafted":  # set all undrafted to 0
+        player.draft_year = 0.0
+        player.draft_round = 0.0
+        player.draft_number = 0.0
 
 
 def sort_to_table(players):
@@ -67,12 +71,11 @@ def sort_to_table(players):
 def get_column(table, index):
     col = []
     for row in table:
-        col.append([[row[0]], row[index]])
+        col.append(float(row[index]))
     return col
 
 
 def compute_holdout_partitions(table):
-
     randomized = table[:]
     n = len(randomized)
     for i in range(n):
@@ -88,12 +91,50 @@ def calc_slope(X, Y, mean_x, mean_y):
     numer = 0
     denom = 0
     m = len(X)
-
     for i in range(m):
         numer += (X[i] - mean_x) * (Y[i] - mean_y)
         denom += (X[i] - mean_x) ** 2
     slope = numer / denom
     return slope
+
+
+def predictor(x, m, b):
+    y_guess = []
+    for i in x:
+        y_guess.append((m*i) + b)
+
+    return y_guess
+
+
+def linear_reg(table, x_ind, y_ind):
+    train, test = compute_holdout_partitions(table)
+
+    y_values = get_column(train, y_ind)
+    x_values = get_column(train, x_ind)
+
+    ym = np.mean(y_values)
+    xm = np.mean(x_values)
+
+    slope = calc_slope(x_values, y_values, xm, ym)
+    b = ym - (xm*slope)
+
+    test_x = get_column(test, x_ind)
+    test_y = get_column(test, y_ind)
+    predict = predictor(test_x, slope, b)
+    acc = 0
+    sleepers = []
+    for idx, row in enumerate(test):
+        if abs(int(predict[idx])-int(row[1])) <= 7:
+            acc += 1
+        if int(predict[idx]) > int(row[1]):
+            sleepers.append(row[0])
+        print(row[0],  ": Pred=", int(predict[idx]), " Actual=", int(row[1]))
+    print("Accuracy: ", (acc/len(test_x)))
+    print("Sleeps", sleepers)
+
+
+def normalize(xs, x):
+    return (x - min(xs)) / ((max(xs) - min(xs)) * 1.0)
 
 
 if __name__ == '__main__':
