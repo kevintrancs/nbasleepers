@@ -64,8 +64,8 @@ def generate_career_avgs(player):
 def sort_to_table(players):
     table = []
     for k, v in players.items():
-        table.append([v.player_name, v.draft_number, v.gp, v.pts, v.reb,
-                      v.ast, v.net_rating, v.usg_pct, v.ts_pct, v.ast_pct])
+        table.append([v.player_name, v.gp, v.pts, v.reb,
+                      v.ast, v.net_rating, v.usg_pct, v.ts_pct, v.ast_pct, int(v.draft_number)])
     return table
 
 # 0 = name, 1 = draftNumber (classifier)
@@ -127,13 +127,12 @@ def linear_reg(table, x_ind, y_ind):
     acc = 0
     sleepers = []
     for idx, row in enumerate(test):
-        if abs(int(predict[idx])-int(row[1])) <= 7:
+        if abs(int(predict[idx])-int(row[-1])) <= 7:
             acc += 1
-        if int(predict[idx]) > int(row[1]):
+        if int(predict[idx]) > int(row[-1]):
             sleepers.append(row[0])
-        print(row[0],  ": Pred=", int(predict[idx]), " Actual=", int(row[1]))
+        print(row[0],  ": Pred=", int(predict[idx]), " Actual=", int(row[-1]))
     print("Accuracy: ", (acc/len(test_x)))
-    print("Sleeps", sleepers)
 
 
 def normalize(xs, x):
@@ -150,10 +149,10 @@ def knn(table, k):
 
     for row in test:
         knn_test_names.append(row[0])
-        knn_test.append(row[3::] + [int(row[1])])
+        knn_test.append(row[1::])
 
     for row in train:
-        knn_train.append(row[3::] + [int(row[1])])
+        knn_train.append(row[1::])
 
     for idx, row in enumerate(knn_train):
         for ind, i in enumerate(row[:-1]):
@@ -166,9 +165,9 @@ def knn(table, k):
             knn_test[idx][ind] = normalize(xs, i)
 
     for ind, i in enumerate(knn_test):
-        x = getNeighbors(knn_train, 7, knn_test[ind], 3)
+        x = getNeighbors(knn_train, len(knn_test[0]), knn_test[ind], 3)
         print(knn_test_names[ind], " Predicted label: ",
-              int(x), " Actual: ", knn_test[ind][7])
+              int(x), " Actual: ", knn_test[ind][-1])
 
 
 def compute_distance(v1, v2, length):
@@ -190,12 +189,98 @@ def getNeighbors(training_set, n, instance, k):
 
     lst = []
     for ind, x in enumerate(neighbors):
-        lst.append(neighbors[ind][n])
+        lst.append(neighbors[ind][-1])
     data = Counter(lst)
     return data.most_common(1)[0][0]
+
+
+def gaussian(x, mean, sdev):
+    first, second = 0, 0
+    if sdev > 0:
+        first = 1 / (math.sqrt(2 * math.pi) * sdev)
+        second = math.e ** (-((x - mean) ** 2) / (2 * (sdev ** 2)))
+    return first * second
+
+
+def sep_class(table):
+    label = {}
+    for idx, row in enumerate(table):
+        if row[-1] not in label:
+            label[row[-1]] = []
+        label[row[-1]].append(row)
+    return label
+
+
+def mean(numbers):
+    return sum(numbers)/float(len(numbers))
+
+
+def stdev(numbers):
+    avg = mean(numbers)
+    variance = sum([pow(x-avg, 2) for x in numbers])/float(len(numbers)-1)
+    return math.sqrt(variance)
+
+
+def summarize(dataset):
+    summaries = [(np.mean(attribute), np.std(attribute))
+                 for attribute in zip(*dataset)]
+    del summaries[-1]
+    return summaries
+
+
+def summarizeByClass(dataset):
+    separated = sep_class(dataset)
+    summaries = {}
+    for classValue, instances in separated.items():
+        summaries[classValue] = summarize(instances)
+    return summaries
+
+
+def naive_bayes(table):
+    test_names = []
+    train_x = []
+    test_x = []
+    train, test = compute_holdout_partitions(table)
+    for row in train:
+        train_x.append(row[1::])
+
+    for row in test:
+        test_names.append(row[0])
+        test_x.append(row[1::])
+
+    summary = summarizeByClass(train_x)
+    acc = 0
+    for idx, row in enumerate(test_x):
+        p = predict(summary, row)
+        if abs(p - row[-1]) <= 7:
+            acc += 1
+        print(test_names[idx], " Predict: ", p, " Actual: ", row[-1])
+    print("Accuracy: ", acc/len(test_x))
+
+
+def predict(summaries, inputVector):
+    probabilities = calculateClassProbabilities(summaries, inputVector)
+    bestLabel, bestProb = None, -1
+    for classValue, probability in probabilities.items():
+        if bestLabel is None or probability > bestProb:
+            bestProb = probability
+            bestLabel = classValue
+    return bestLabel
+
+
+def calculateClassProbabilities(summaries, inputVector):
+    probabilities = {}
+    for classValue, classSummaries in summaries.items():
+        probabilities[classValue] = 1
+        for i in range(len(classSummaries)):
+            mean, stdev = classSummaries[i]
+            x = inputVector[i]
+            probabilities[classValue] *= gaussian(x, mean, stdev)
+    return probabilities
 
 
 if __name__ == '__main__':
     players = org_players('all_seasons.csv', headers)
     table = sort_to_table(players)
-    print(table[777])
+    print(table[697])
+    naive_bayes(table)
