@@ -1,12 +1,19 @@
+# rebuild linear knn and naive bayes so they are return the model so we can use for bagging or wahtever the fuck
+
+
 import csv
+import matplotlib.pyplot as plot
 import random
 import numpy as np
 import math
 from collections import Counter
 import operator
 from csv import DictWriter, DictReader
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
            'gp', 'pts', 'reb', 'ast', 'net_rating', 'usg_pct', 'ts_pct', 'ast_pct']
+linearRegressor = LinearRegression()
 
 
 class Player:
@@ -24,6 +31,19 @@ class Player:
         self.usg_pct = [float(data['usg_pct'])]
         self.ts_pct = [float(data['ts_pct'])]
         self.ast_pct = [float(data['ast_pct'])]
+
+
+def draft_converter(num):
+    if num > 0 and num <= 5:
+        return "TOP 5"
+    elif num >= 6 and num <= 14:
+        return "LOTTERY"
+    elif num >= 15 and num <= 30:
+        return "LATE FIRST ROUND"
+    elif num >= 31:
+        return "SECOND ROUND"
+    else:
+        return "UNDRAFTED"
 
 
 def org_players(file, headers):
@@ -101,73 +121,41 @@ def calc_slope(X, Y, mean_x, mean_y):
     return slope
 
 
-def predictor(x, m, b):
-    y_guess = []
-    for i in x:
-        y_guess.append((m*i) + b)
-
-    return y_guess
+def results_linear_reg(slope, b, x):
+    guess = (slope*x) + b
+    return guess
 
 
-def linear_reg(table, x_ind, y_ind):
-    train, test = compute_holdout_partitions(table)
-
-    y_values = get_column(train, y_ind)
-    x_values = get_column(train, x_ind)
-
+def linear_reg(x_values, y_values):
     ym = np.mean(y_values)
     xm = np.mean(x_values)
-
     slope = calc_slope(x_values, y_values, xm, ym)
     b = ym - (xm*slope)
+    return slope, b
 
-    test_x = get_column(test, x_ind)
-    test_y = get_column(test, y_ind)
-    predict = predictor(test_x, slope, b)
+
+def test_linear(slope, b, test_x, test_y, names):
     acc = 0
     sleepers = []
-    for idx, row in enumerate(test):
-        if abs(int(predict[idx])-int(row[-1])) <= 7:
+    for idx, row in enumerate(test_x):
+        guess = results_linear_reg(slope, b, row)
+
+        if draft_converter(int(guess)) == draft_converter(test_y[idx]):
             acc += 1
-        if int(predict[idx]) > int(row[-1]):
+        if int(guess) > int(test_y[idx]):
             sleepers.append(row[0])
-        print(row[0],  ": Pred=", int(predict[idx]), " Actual=", int(row[-1]))
-    print("Accuracy: ", (acc/len(test_x)))
+        print(names[idx],  ": Pred=", draft_converter(int(int(guess))),
+              " Actual=", draft_converter(test_y[idx]))
+    print("Accuracy: ", (acc/len(test_y)))
 
 
 def normalize(xs, x):
     return (x - min(xs)) / ((max(xs) - min(xs)) * 1.0)
 
 
-def knn(table, k):
-
-    train, test = compute_holdout_partitions(table)
-
-    knn_train = []
-    knn_test = []
-    knn_test_names = []
-
-    for row in test:
-        knn_test_names.append(row[0])
-        knn_test.append(row[1::])
-
-    for row in train:
-        knn_train.append(row[1::])
-
-    for idx, row in enumerate(knn_train):
-        for ind, i in enumerate(row[:-1]):
-            xs = get_column(knn_train, ind)
-            knn_train[idx][ind] = normalize(xs, i)
-
-    for idx, row in enumerate(knn_test):
-        for ind, i in enumerate(row[:-1]):
-            xs = get_column(knn_test, ind)
-            knn_test[idx][ind] = normalize(xs, i)
-
-    for ind, i in enumerate(knn_test):
-        x = getNeighbors(knn_train, len(knn_test[0]), knn_test[ind], 3)
-        print(knn_test_names[ind], " Predicted label: ",
-              int(x), " Actual: ", knn_test[ind][-1])
+def knn(train_x, test_x, k):
+    x = getNeighbors(train_x, len(train_x[0]), test_x, 5)
+    return x
 
 
 def compute_distance(v1, v2, length):
@@ -279,8 +267,98 @@ def calculateClassProbabilities(summaries, inputVector):
     return probabilities
 
 
+def bootstrap(table):
+    return [table[random.randint(0, len(table)-1)] for _ in range(len(table))]
+
+
+def bagging(table):
+    train, test = compute_holdout_partitions(table)
+
+    linear_bag = bootstrap(train)
+    knn_bag = bootstrap(train)
+    bayes_bag = bootstrap(train)
+
+
+def useful_rows(table, idxs):
+    t = []
+    for row in table:
+        temp = []
+        for i in idxs:
+            temp.append(row[i])
+
+        t.append(temp)
+    return t
+
+
+def sklearn_linear():
+    pass
+
+
 if __name__ == '__main__':
     players = org_players('all_seasons.csv', headers)
     table = sort_to_table(players)
-    print(table[697])
-    naive_bayes(table)
+    print(table[800])
+    bagging(table)
+
+    print("LINEAR (NOT SKLEARN)")
+    y_values = get_column(table, 9)
+    x_values = useful_rows(table, [0, 2])
+
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_values, y_values, test_size=1/3, random_state=0)
+
+    xTest_names = useful_rows(xTs, [0])
+    xTrain = useful_rows(xT, [1])
+    xTest = useful_rows(xTs, [1])
+
+    slope, b = linear_reg(xTrain, yTrain)
+    test_linear(slope, b, xTest, yTest, xTest_names)
+    # SKLEARN - Linear
+    xTrain = np.array(xTrain)
+    yTrain = np.array(yTrain)
+    xTrain = xTrain.reshape(-1, 1)
+    yTrain = yTrain.reshape(-1, 1)
+
+    xTest = np.array(xTest)
+    yTest = np.array(yTest)
+    xTest = xTest.reshape(-1, 1)
+    yTest = yTest.reshape(-1, 1)
+
+    linearRegressor.fit(xTrain, yTrain)
+    yPrediction = linearRegressor.predict(xTest)
+    accuracy = linearRegressor.score(xTest, yTest)
+
+    plot.scatter(xTrain, yTrain, color='red')
+    plot.plot(xTrain, linearRegressor.predict(xTrain), color='blue')
+    plot.title('Draft Number vs PPG')
+    plot.xlabel('PPG')
+    plot.ylabel('Draft')
+    plot.show()
+    print("\n \n \n \n \n")
+    print("KNN (NOT SKLEARN)")
+
+    y_knn = get_column(table, 9)
+    x_knn = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_knn, y_knn, test_size=1/3, random_state=0)
+
+    knn_test_names = useful_rows(xTs, [0])
+    # Normalize our X
+    for idx, row in enumerate(xT):
+        for ind, i in enumerate(row[1:-1]):
+            xs = get_column(xT, ind+1)
+            xT[idx][ind+1] = normalize(xs, i)
+    for idx, row in enumerate(xTs):
+        for ind, i in enumerate(row[1:-1]):
+            xs = get_column(xTs, ind+1)
+            xTs[idx][ind+1] = normalize(xs, i)
+    
+    xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9])
+    knn_acc = 0
+    for idx, row in enumerate(xTs):
+        pred = knn(xT, row[1:], 9)
+        if draft_converter(pred) == draft_converter(row[-1]):
+            knn_acc += 1
+        print(knn_test_names[idx], "Prediction: ",
+              draft_converter(pred), " Actual: ", draft_converter(row[-1]))
+    print("KNN Accuracy: ", knn_acc/len(xTs))
