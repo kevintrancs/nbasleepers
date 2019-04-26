@@ -352,7 +352,7 @@ if __name__ == '__main__':
         for ind, i in enumerate(row[1:-1]):
             xs = get_column(xTs, ind+1)
             xTs[idx][ind+1] = normalize(xs, i)
-    
+
     xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9])
     knn_acc = 0
     for idx, row in enumerate(xTs):
@@ -362,3 +362,22 @@ if __name__ == '__main__':
         print(knn_test_names[idx], "Prediction: ",
               draft_converter(pred), " Actual: ", draft_converter(row[-1]))
     print("KNN Accuracy: ", knn_acc/len(xTs))
+    print('/n /n /n /n /n')
+    y_naive = get_column(table, 9)
+    x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_naive, y_naive, test_size=1/3, random_state=0)
+
+    naive_test_names = useful_rows(xTs, [0])
+    xT = useful_rows(xT, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+    xTs = useful_rows(xTs, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+    summary = summarizeByClass(xT)
+    naive_acc = 0
+    for idx, row in enumerate(xTs):
+        p = predict(summary, row)
+        if draft_converter(p) == draft_converter(row[-1]):
+            naive_acc += 1
+        print(naive_test_names[idx], " Predict: ",
+              draft_converter(p), " Actual: ", draft_converter(row[-1]))
+    print("Accuracy: ", naive_acc/len(xTs))
