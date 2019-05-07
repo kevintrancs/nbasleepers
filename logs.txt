@@ -1,0 +1,1905 @@
+['Trenton Hassell', 644.0, 5.622222222222224, 2.8111111111111113, 1.6888888888888889, -5.888888888888889, 0.12188888888888888, 0.48366666666666663, 0.10344444444444442, 29]
+LINEAR (NOT SKLEARN)
+['Alonzo Mourning'] : Pred= LOTTERY  Actual= TOP 5
+['Ashraf Amaya'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Damian Lillard'] : Pred= LOTTERY  Actual= LOTTERY
+['Ish Smith'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Carl Landry'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Delonte West'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Gerald Wallace'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Ime Udoka'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Zan Tabak'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kyle Wiltjer'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jim Jackson'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Ennis Whatley'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['James White'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Brook Lopez'] : Pred= LOTTERY  Actual= LOTTERY
+['Melvin Booker'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Dante Exum'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Ryan Stack'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Vitaly Potapenko'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Theo Ratliff'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Toni Kukoc'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Andrew Goudelock'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kaniel Dickens'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Edy Tavares'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jeff Grayer'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jason Thompson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Tyson Wheeler'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Malcolm Brogdon'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Scot Pollard'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Markel Brown'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['T.J. McConnell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Shane Heal'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ryan Kelly'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Malik Rose'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Reggie Hanson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Erik Murphy'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['DJ Strawberry'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Stojko Vrankovic'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Lindsey Hunter'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Rawle Marshall'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Henry Ellenson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Oleksiy Pecherov'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Salim Stoudamire'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Aaron Gordon'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Jumaine Jones'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jim McIlvaine'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Pete Chilcutt'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Chris Childs'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Richard Manning'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Greg Monroe'] : Pred= LOTTERY  Actual= LOTTERY
+['Kim English'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Peja Stojakovic'] : Pred= LOTTERY  Actual= LOTTERY
+['Steven Hill'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Mike Smith'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Bryce Drew'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Quinton Ross'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Nick Young'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Perry Jones III'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mark West'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Emanual Davis'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Stephen Curry'] : Pred= LOTTERY  Actual= LOTTERY
+['Malik Sealy'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Austin Daye'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Ben Wallace'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Terrence Williams'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Justin Dentmon'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Bonzi Wells'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Bruno Caboclo'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['J.R. Henderson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kurt Thomas'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Ken Norman'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Victor Alexander'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Evan Turner'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Fred Roberts'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mike Taylor'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kyle Anderson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Luis Flores'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Alex Kirk'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jason Williams'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Quincy Lewis'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Felipe Lopez'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Michael Jordan'] : Pred= LOTTERY  Actual= TOP 5
+['Damon Jones'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Pat Garrity'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Rodrigue Beaubois'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Chris Wright'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['P.J. Brown'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Efthimios Rentzias'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Tyrus Thomas'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Lazar Hayward'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Troy Murphy'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Toney Douglas'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Michael Dickerson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jamal Robinson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Anthony Carter'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Steve Henson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Will Barton'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Marshall Plumlee'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Brooks Thompson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Don Reid'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Stanley Johnson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Sean Williams'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Damon Stoudamire'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Darryl Watkins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Cezary Trybanski'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Chris Mullin'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jarrett Jack'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Sam Cassell'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Joey Dorsey'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Sasha Kaun'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kay Felder'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jerome Allen'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Montrezl Harrell'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Anthony Grundy'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Robert Sacre'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['John Henson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Hamady Ndiaye'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ansu Sesay'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Myles Turner'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Chris Paul'] : Pred= LOTTERY  Actual= TOP 5
+['Tony Massenburg'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kyle Singler'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Pepe Sanchez'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Casey Jacobsen'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Joe Harris'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Tristan Thompson'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Chasson Randle'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Travis Knight'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Paul Grant'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Darrin Hancock'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Derek Grimm'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jeryl Sasser'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Ryan Reid'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ronnie Brewer'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Gary Payton II'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Julian Wright'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jonathon Simmons'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Nicolas Laprovittola'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ruben Patterson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['James Cotton'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Gerald Fitch'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Mark Blount'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Charles Smith'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Terry Davis'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Cartier Martin'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ray McCallum'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Al Harrington'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Anthony Parker'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Skal Labissiere'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Derrick Jones Jr.'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ryan Bowen'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Michael Bradley'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jordan Hill'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Sherron Collins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Sarunas Jasikevicius'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Robbie Hummel'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Tony Battie'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Justise Winslow'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Olden Polynice'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Antoine Walker'] : Pred= LOTTERY  Actual= LOTTERY
+['Marco Belinelli'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jason Collier'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Nikola Vucevic'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Carlos Arroyo'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Randy Brown'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Shawne Williams'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Luke Babbitt'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Donnell Harvey'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Isaiah Taylor'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Vincent Yarbrough'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Al Thornton'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Reggie Geary'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Georgios Papagiannis'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Ryan Gomes'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Lonny Baxter'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Evan Eschmeyer'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Greg Ostertag'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mario Elie'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Roko Ukic'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Deron Williams'] : Pred= LOTTERY  Actual= TOP 5
+['Jason Collins'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Tremaine Fowlkes'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kelly Olynyk'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jason Smith'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jabari Smith'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['DeJuan Blair'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jerel McNeal'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Dragan Tarlac'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Brandon Williams'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jared Sullinger'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Donnie Boyce'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Alvin Williams'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Frank Kaminsky'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jerome Williams'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Chris Crawford'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Bryce Cotton'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Brent Barry'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Nikola Jokic'] : Pred= LOTTERY  Actual= SECOND ROUND
+['Anthony Bennett'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Tony Mitchell'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Nate McMillan'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Carl Herrera'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Coby Karl'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Gordon Hayward'] : Pred= LOTTERY  Actual= LOTTERY
+['Ivica Zubac'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Marko Jaric'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jerald Honeycutt'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Vernon Maxwell'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Marcus Morris'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Baron Davis'] : Pred= LOTTERY  Actual= TOP 5
+['Stephen Graham'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Boris Diaw'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Semih Erden'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Nate Robinson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Will Cherry'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Arron Afflalo'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['DeMarco Johnson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Willy Hernangomez'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Cory Higgins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Wesley Matthews'] : Pred= LOTTERY  Actual= UNDRAFTED
+['Dana Barros'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Will Perdue'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Keyon Dooling'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+["Dontae' Jones"] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Ken Johnson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Pascal Siakam'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Keith Van Horn'] : Pred= LOTTERY  Actual= TOP 5
+['CJ McCollum'] : Pred= LOTTERY  Actual= LOTTERY
+['Lloyd Daniels'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Pat Connaughton'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Hasheem Thabeet'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Loren Woods'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Seth Curry'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Elias Harris'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Tyronn Lue'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['David Vanterpool'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Damien Wilkins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Aleksandar Radojevic'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Acie Law'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Joffrey Lauvergne'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Mark Jackson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jonathan Gibson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Linton Johnson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Brian Oliver'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Aaron Miles'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Zabian Dowdell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Miles Plumlee'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Ruben Nembhard'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Steven Hunter'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['David Wingate'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Brian Scalabrine'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Lorenzo Williams'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Goran Dragic'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kiwane Garris'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Dickey Simpkins'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Sasha Pavlovic'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['John Crotty'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Thanasis Antetokounmpo'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jonas Jerebko'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['David West'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Scottie Pippen'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Ledell Eackles'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['DJ Stephens'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ed Pinckney'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Duane Ferrell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Martin Lewis'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Juwan Howard'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Michael Doleac'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Gigi Datome'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Anthony Bowie'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Steve Novak'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Lamond Murray'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Nicolas Brussino'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Antoine Carr'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Garrett Temple'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Kevin Burleson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Michael Stewart'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jake Voskuhl'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Walter McCarty'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Nick Johnson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Joel Embiid'] : Pred= LOTTERY  Actual= TOP 5
+['Sean May'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Taurean Prince'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Glenn Robinson'] : Pred= LOTTERY  Actual= TOP 5
+['Harold Ellis'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Cedric Henderson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Mahmoud Abdul-Rauf'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Clint Capela'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Lorenzen Wright'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Yogi Ferrell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Steven Adams'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jabari Parker'] : Pred= LOTTERY  Actual= TOP 5
+['Thaddeus Young'] : Pred= LOTTERY  Actual= LOTTERY
+['Morris Almond'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Matt Fish'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jeff Foster'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Todd Fuller'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Andre Drummond'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Yakhouba Diawara'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Pops Mensah-Bonsu'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Armen Gilliam'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Kenny Anderson'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Tariq Abdul-Wahad'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Andreas Glyniadakis'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jerome Jordan'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Will Solomon'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ike Austin'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jeremy Evans'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Rafael Araujo'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Terry Cummings'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Jackie Butler'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Chris Taft'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Michael Hawkins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Patrick Patterson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Lucas Nogueira'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Javaris Crittenton'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Kevin Ollie'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Earl Cureton'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Dwight Powell'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Hamed Haddadi'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Aaron McKie'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mookie Blaylock'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Dexter Pittman'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Mike Conley'] : Pred= LOTTERY  Actual= TOP 5
+['Russ Smith'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Damjan Rudez'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Cheick Diallo'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Tracy Moore'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Zarko Cabarkapa'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Bimbo Coles'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Reggie Bullock'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Frank Brickowski'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Hedo Turkoglu'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['David Vaughn'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Kent Bazemore'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ivan Johnson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Reggie Williams'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Steve Goodrich'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Peyton Siva'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Mickell Gladness'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Adonal Foyle'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Julius Randle'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Dennis Scott'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Derrick Favors'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Mustafa Shakur'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Bill Curley'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Darvin Ham'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ognjen Kuzmic'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['A.C. Green'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Zach Randolph'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Luke Ridnour'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Will Bynum'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ronny Turiaf'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Othello Hunter'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+["D'Angelo Russell"] : Pred= LOTTERY  Actual= TOP 5
+['Tyler Hansbrough'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Clifford Rozier'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Sam Mack'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Desmon Farmer'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Billy Thomas'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jermaine Taylor'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Emeka Okafor'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Ben Uzoh'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Gerald Henderson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Martin Muursepp'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Sean Elliott'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Dewayne Dedmon'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jerome Kersey'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Brandan Wright'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Rodney Buford'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Corsley Edwards'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jamal Sampson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['James Thomas'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Walter Sharpe'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['David Wear'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Darren Collison'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jeff Foote'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Sean Marks'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Willie Green'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Corliss Williamson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Dee Brown'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Otis Thorpe'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Speedy Claxton'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Danny Fortson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Cal Bowdler'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mike Harris'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Brandon Armstrong'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Eddie Gill'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Armon Johnson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['George McCloud'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Alex Stepheson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Zach LaVine'] : Pred= LOTTERY  Actual= LOTTERY
+['Axel Toupane'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Meyers Leonard'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Qyntel Woods'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Slavko Vranes'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Cuttino Mobley'] : Pred= LOTTERY  Actual= SECOND ROUND
+['Ike Diogu'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Derrick McKey'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Larry Stewart'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jeff Adrien'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Anthony Randolph'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Pooh Jeter'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Samardo Samuels'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Rodney Rogers'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Leandro Barbosa'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Otto Porter Jr.'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Shelden Williams'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Mardy Collins'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Shavlik Randolph'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Brandon Knight'] : Pred= LOTTERY  Actual= LOTTERY
+['Taylor Griffin'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Chris Johnson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Luol Deng'] : Pred= LOTTERY  Actual= LOTTERY
+['Kevin Martin'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['John Edwards'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Denzel Valentine'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Kenyon Martin'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Courtney Fortson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Tiago Splitter'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Dirk Nowitzki'] : Pred= LOTTERY  Actual= LOTTERY
+['Antonio McDyess'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Kevin Durant'] : Pred= TOP 5  Actual= TOP 5
+['Tyus Jones'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Rik Smits'] : Pred= LOTTERY  Actual= TOP 5
+['Felton Spencer'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Kasib Powell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Shaun Livingston'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Eddie Basden'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Timothe Luwawu-Cabarrot'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Clyde Drexler'] : Pred= LOTTERY  Actual= LOTTERY
+['Chris Owens'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Chris Gatling'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Courtney Lee'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Robert Hite'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jarvis Varnado'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jaylen Brown'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['DJ White'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Brendan Haywood'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Shabazz Napier'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Casper Ware'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Mikki Moore'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Bobby Portis'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Vonteego Cummings'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mirza Teletovic'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Matt Bonner'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Glen Davis'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Howard Eisley'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Bruno Sundov'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ha Ha'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Hot Rod Williams'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ron Harper'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Bryant Stith'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Karl-Anthony Towns'] : Pred= LOTTERY  Actual= TOP 5
+['Aron Baynes'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Geno Carlisle'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Zendon Hamilton'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jakob Poeltl'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Kirk Hinrich'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Brent Scott'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Royce White'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Nik Stauskas'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Spud Webb'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Josh Childress'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jeff Hornacek'] : Pred= LOTTERY  Actual= SECOND ROUND
+['David Lee'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Harold Jamison'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Horace Grant'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Rodney Carney'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Paul McPherson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Gerald Madkins'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Royal Ivey'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Duane Causwell'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Travis Williams'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Quincy Miller'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Nikoloz Tskitishvili'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Jerry Smith'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Nemanja Bjelica'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jonathan Kerner'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Darko Milicic'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Andres Nocioni'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Stanley Roberts'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Sedale Threatt'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Aaron Brooks'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Shareef Abdur-Rahim'] : Pred= LOTTERY  Actual= TOP 5
+['Milt Palacio'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Craig Brackins'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Brandon Rush'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Bison Dele'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Adam Morrison'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Wesley Person'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Alec Burks'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Joe Crispin'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Joe Young'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Miroslav Raduljica'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Bruce Bowen'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Rudy Fernandez'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Marcus Thornton'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Robert Horry'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+["Charles O'Bannon"] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Renaldo Balkman'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Carlos Delfino'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jerome Dyson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Michael Kidd-Gilchrist'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Esteban Batista'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Loy Vaught'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Lou Amundson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Harrison Barnes'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Mike Brown'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kirk Haston'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Chuck Person'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Julyan Stone'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Johnny Newman'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Darnell Jackson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Troy Hudson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['James Jones'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Billy Owens'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Ray Allen'] : Pred= LOTTERY  Actual= TOP 5
+['Richard Jefferson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Donald Sloan'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Andre Miller'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Tyler Johnson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Willie Reed'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Solomon Alabi'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Andrew Bynum'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Marquese Chriss'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Sarunas Marciulionis'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Josh Richardson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jared Dudley'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jeff Sheppard'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Byron Mullens'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Omri Casspi'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['J.R. Bremer'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Pooh Richardson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Nikola Pekovic'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Andrew Bogut'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Matt Bullard'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Darius Morris'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Dionte Christmas'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Craig Smith'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Keith Closs'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Antonio Anderson'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jalen Rose'] : Pred= LOTTERY  Actual= LOTTERY
+['Samaki Walker'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Bubba Wells'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Keith McLeod'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Nemanja Nedovic'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Gary Forbes'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Salah Mejri'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Donta Smith'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['DeShawn Stevenson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Negele Knight'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Kobe Bryant'] : Pred= LOTTERY  Actual= LOTTERY
+['Chris Kaman'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Rex Chapman'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Morris Peterson'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['A.J. Bramlett'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['George Hill'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Antonio Daniels'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Joe Dumars'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Eddie House'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Keith Booth'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Andris Biedrins'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Andre Iguodala'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Tim Breaux'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Joe Stephens'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Elijah Millsap'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Gilbert Arenas'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Cherokee Parks'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Tony Allen'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Kelenna Azubuike'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Eddie Jones'] : Pred= LOTTERY  Actual= LOTTERY
+['Nazr Mohammed'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Raja Bell'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Travis Diener'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Ira Bowman'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Fred Hoiberg'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Jerome James'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+["Patrick O'Bryant"] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Aaron Gray'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Chris Morris'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Brian Roberts'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Scott Williams'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Ekpe Udoh'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Joakim Noah'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jamie Watson'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Fabricio Oberto'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Dante Cunningham'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Adam Keefe'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Jason Kidd'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Cody Zeller'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Al Jefferson'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Mateen Cleaves'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Lawrence Roberts'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Nerlens Noel'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Lynn Greer'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Kawhi Leonard'] : Pred= LOTTERY  Actual= LATE FIRST ROUND
+['Anthony Avent'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Mike Dunleavy'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['James Posey'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['John Coker'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Jayson Williams'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Korleone Young'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Monty Williams'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Brandin Knight'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Mike Miller'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Jason Terry'] : Pred= LOTTERY  Actual= LOTTERY
+['Avery Bradley'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Brad Miller'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Drew Gordon'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Caris LeVert'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Joseph Forte'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Rashad McCants'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Larry Hughes'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Travis Best'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Corey Benjamin'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Brent Price'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Boniface Ndong'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['D.J. Kennedy'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Thurl Bailey'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Renaldo Major'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Dominique Jones'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Desmond Mason'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['John Long'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Justin Harper'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+['Reece Gaines'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['James Southerland'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Eric Piatkowski'] : Pred= LATE FIRST ROUND  Actual= LATE FIRST ROUND
+['Jonas Valanciunas'] : Pred= LATE FIRST ROUND  Actual= TOP 5
+['Tony Bobbitt'] : Pred= LATE FIRST ROUND  Actual= UNDRAFTED
+['Willie Anderson'] : Pred= LATE FIRST ROUND  Actual= LOTTERY
+['Torraye Braggs'] : Pred= LATE FIRST ROUND  Actual= SECOND ROUND
+Accuracy:  0.24564183835182252
+
+ 
+ 
+ 
+ 
+
+KNN (NOT SKLEARN)
+['Alonzo Mourning'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Ashraf Amaya'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Damian Lillard'] Prediction:  TOP 5  Actual:  LOTTERY
+['Ish Smith'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Carl Landry'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Delonte West'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Gerald Wallace'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Ime Udoka'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Zan Tabak'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Kyle Wiltjer'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jim Jackson'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Ennis Whatley'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['James White'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Brook Lopez'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Melvin Booker'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Dante Exum'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['Ryan Stack'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Vitaly Potapenko'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Theo Ratliff'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Toni Kukoc'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Andrew Goudelock'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Kaniel Dickens'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Edy Tavares'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jeff Grayer'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Jason Thompson'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Tyson Wheeler'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Malcolm Brogdon'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Scot Pollard'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Markel Brown'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['T.J. McConnell'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Shane Heal'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Ryan Kelly'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Malik Rose'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Reggie Hanson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Erik Murphy'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['DJ Strawberry'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Stojko Vrankovic'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Lindsey Hunter'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Rawle Marshall'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Henry Ellenson'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Oleksiy Pecherov'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Salim Stoudamire'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Aaron Gordon'] Prediction:  TOP 5  Actual:  TOP 5
+['Jumaine Jones'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Jim McIlvaine'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Pete Chilcutt'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Chris Childs'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Richard Manning'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Greg Monroe'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Kim English'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Peja Stojakovic'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Steven Hill'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Mike Smith'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Bryce Drew'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Quinton Ross'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Nick Young'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Perry Jones III'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Mark West'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Emanual Davis'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Stephen Curry'] Prediction:  TOP 5  Actual:  LOTTERY
+['Malik Sealy'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Austin Daye'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Ben Wallace'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Terrence Williams'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Justin Dentmon'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Bonzi Wells'] Prediction:  TOP 5  Actual:  LOTTERY
+['Bruno Caboclo'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['J.R. Henderson'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Kurt Thomas'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Ken Norman'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Victor Alexander'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Evan Turner'] Prediction:  TOP 5  Actual:  TOP 5
+['Fred Roberts'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Taylor'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Kyle Anderson'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Luis Flores'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Alex Kirk'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jason Williams'] Prediction:  TOP 5  Actual:  LOTTERY
+['Quincy Lewis'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Felipe Lopez'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Michael Jordan'] Prediction:  TOP 5  Actual:  TOP 5
+['Damon Jones'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Pat Garrity'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Rodrigue Beaubois'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Chris Wright'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['P.J. Brown'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Efthimios Rentzias'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Tyrus Thomas'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Lazar Hayward'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Troy Murphy'] Prediction:  TOP 5  Actual:  LOTTERY
+['Toney Douglas'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Michael Dickerson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jamal Robinson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Anthony Carter'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Steve Henson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Will Barton'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Marshall Plumlee'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Brooks Thompson'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Don Reid'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Stanley Johnson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Sean Williams'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Damon Stoudamire'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Darryl Watkins'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Cezary Trybanski'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Chris Mullin'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jarrett Jack'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Sam Cassell'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Joey Dorsey'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Sasha Kaun'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Kay Felder'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jerome Allen'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Montrezl Harrell'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Anthony Grundy'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Robert Sacre'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['John Henson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Hamady Ndiaye'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Ansu Sesay'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Myles Turner'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Chris Paul'] Prediction:  TOP 5  Actual:  TOP 5
+['Tony Massenburg'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Kyle Singler'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Pepe Sanchez'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Casey Jacobsen'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Joe Harris'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Tristan Thompson'] Prediction:  LOTTERY  Actual:  TOP 5
+['Chasson Randle'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Travis Knight'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Paul Grant'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Darrin Hancock'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Derek Grimm'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jeryl Sasser'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ryan Reid'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Ronnie Brewer'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Gary Payton II'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Julian Wright'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Jonathon Simmons'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Nicolas Laprovittola'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Ruben Patterson'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['James Cotton'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Gerald Fitch'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Mark Blount'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Charles Smith'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['Terry Davis'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Cartier Martin'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Ray McCallum'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Al Harrington'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Anthony Parker'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Skal Labissiere'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Derrick Jones Jr.'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Ryan Bowen'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Michael Bradley'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Jordan Hill'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Sherron Collins'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Sarunas Jasikevicius'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Robbie Hummel'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Tony Battie'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Justise Winslow'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Olden Polynice'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Antoine Walker'] Prediction:  TOP 5  Actual:  LOTTERY
+['Marco Belinelli'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Jason Collier'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Nikola Vucevic'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Carlos Arroyo'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Randy Brown'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Shawne Williams'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Luke Babbitt'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Donnell Harvey'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Isaiah Taylor'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Vincent Yarbrough'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Al Thornton'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Reggie Geary'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Georgios Papagiannis'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Ryan Gomes'] Prediction:  TOP 5  Actual:  SECOND ROUND
+['Lonny Baxter'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Evan Eschmeyer'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Greg Ostertag'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Mario Elie'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Roko Ukic'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Deron Williams'] Prediction:  TOP 5  Actual:  TOP 5
+['Jason Collins'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Tremaine Fowlkes'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Kelly Olynyk'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jason Smith'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jabari Smith'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['DeJuan Blair'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jerel McNeal'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Dragan Tarlac'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Brandon Williams'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Jared Sullinger'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Donnie Boyce'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Alvin Williams'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Frank Kaminsky'] Prediction:  TOP 5  Actual:  LOTTERY
+['Jerome Williams'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Chris Crawford'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Bryce Cotton'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Brent Barry'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Nikola Jokic'] Prediction:  TOP 5  Actual:  SECOND ROUND
+['Anthony Bennett'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['Tony Mitchell'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Nate McMillan'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Carl Herrera'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Coby Karl'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Gordon Hayward'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Ivica Zubac'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Marko Jaric'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jerald Honeycutt'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Vernon Maxwell'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Marcus Morris'] Prediction:  TOP 5  Actual:  LOTTERY
+['Baron Davis'] Prediction:  TOP 5  Actual:  TOP 5
+['Stephen Graham'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Boris Diaw'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Semih Erden'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Nate Robinson'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Will Cherry'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Arron Afflalo'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['DeMarco Johnson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Willy Hernangomez'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Cory Higgins'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Wesley Matthews'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Dana Barros'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Will Perdue'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Keyon Dooling'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+["Dontae' Jones"] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ken Johnson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Pascal Siakam'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Keith Van Horn'] Prediction:  TOP 5  Actual:  TOP 5
+['CJ McCollum'] Prediction:  TOP 5  Actual:  LOTTERY
+['Lloyd Daniels'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Pat Connaughton'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Hasheem Thabeet'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Loren Woods'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Seth Curry'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Elias Harris'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Tyronn Lue'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['David Vanterpool'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Damien Wilkins'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Aleksandar Radojevic'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Acie Law'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Joffrey Lauvergne'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Mark Jackson'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jonathan Gibson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Linton Johnson'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Brian Oliver'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Aaron Miles'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Zabian Dowdell'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Miles Plumlee'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Ruben Nembhard'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Steven Hunter'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['David Wingate'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Brian Scalabrine'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Lorenzo Williams'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Goran Dragic'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Kiwane Garris'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Dickey Simpkins'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Sasha Pavlovic'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['John Crotty'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Thanasis Antetokounmpo'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jonas Jerebko'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['David West'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Scottie Pippen'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Ledell Eackles'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['DJ Stephens'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Ed Pinckney'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Duane Ferrell'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Martin Lewis'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Juwan Howard'] Prediction:  LOTTERY  Actual:  TOP 5
+['Michael Doleac'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Gigi Datome'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Anthony Bowie'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Steve Novak'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Lamond Murray'] Prediction:  TOP 5  Actual:  LOTTERY
+['Nicolas Brussino'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Antoine Carr'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Garrett Temple'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Kevin Burleson'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Michael Stewart'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Jake Voskuhl'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Walter McCarty'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Nick Johnson'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Joel Embiid'] Prediction:  TOP 5  Actual:  TOP 5
+['Sean May'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Taurean Prince'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Glenn Robinson'] Prediction:  LOTTERY  Actual:  TOP 5
+['Harold Ellis'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Cedric Henderson'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Mahmoud Abdul-Rauf'] Prediction:  LOTTERY  Actual:  TOP 5
+['Clint Capela'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Lorenzen Wright'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Yogi Ferrell'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Steven Adams'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Jabari Parker'] Prediction:  TOP 5  Actual:  TOP 5
+['Thaddeus Young'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Morris Almond'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Matt Fish'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Jeff Foster'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Todd Fuller'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Andre Drummond'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Yakhouba Diawara'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Pops Mensah-Bonsu'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Armen Gilliam'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Kenny Anderson'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['Tariq Abdul-Wahad'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Andreas Glyniadakis'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jerome Jordan'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Will Solomon'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Ike Austin'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Jeremy Evans'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Rafael Araujo'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Terry Cummings'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Jackie Butler'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Chris Taft'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Michael Hawkins'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Patrick Patterson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Lucas Nogueira'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Javaris Crittenton'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Kevin Ollie'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Earl Cureton'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Dwight Powell'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Hamed Haddadi'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Aaron McKie'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Mookie Blaylock'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Dexter Pittman'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Mike Conley'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Russ Smith'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Damjan Rudez'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Cheick Diallo'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Tracy Moore'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Zarko Cabarkapa'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Bimbo Coles'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Reggie Bullock'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Frank Brickowski'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Hedo Turkoglu'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['David Vaughn'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Kent Bazemore'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Ivan Johnson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Reggie Williams'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Steve Goodrich'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Peyton Siva'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Mickell Gladness'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Adonal Foyle'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Julius Randle'] Prediction:  TOP 5  Actual:  LOTTERY
+['Dennis Scott'] Prediction:  LOTTERY  Actual:  TOP 5
+['Derrick Favors'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Mustafa Shakur'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Bill Curley'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Darvin Ham'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Ognjen Kuzmic'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['A.C. Green'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Zach Randolph'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Luke Ridnour'] Prediction:  TOP 5  Actual:  LOTTERY
+['Will Bynum'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Ronny Turiaf'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Othello Hunter'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+["D'Angelo Russell"] Prediction:  LOTTERY  Actual:  TOP 5
+['Tyler Hansbrough'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Clifford Rozier'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Sam Mack'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Desmon Farmer'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Billy Thomas'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jermaine Taylor'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Emeka Okafor'] Prediction:  TOP 5  Actual:  TOP 5
+['Ben Uzoh'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Gerald Henderson'] Prediction:  TOP 5  Actual:  LOTTERY
+['Martin Muursepp'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Sean Elliott'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Dewayne Dedmon'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jerome Kersey'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Brandan Wright'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Rodney Buford'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Corsley Edwards'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jamal Sampson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['James Thomas'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Walter Sharpe'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['David Wear'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Darren Collison'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jeff Foote'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Sean Marks'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Willie Green'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Corliss Williamson'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Dee Brown'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Otis Thorpe'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Speedy Claxton'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Danny Fortson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Cal Bowdler'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Harris'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Brandon Armstrong'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Eddie Gill'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Armon Johnson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['George McCloud'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Alex Stepheson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Zach LaVine'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Axel Toupane'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Meyers Leonard'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Qyntel Woods'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Slavko Vranes'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Cuttino Mobley'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Ike Diogu'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Derrick McKey'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Larry Stewart'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jeff Adrien'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Anthony Randolph'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Pooh Jeter'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Samardo Samuels'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Rodney Rogers'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Leandro Barbosa'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Otto Porter Jr.'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Shelden Williams'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Mardy Collins'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Shavlik Randolph'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Brandon Knight'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Taylor Griffin'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Chris Johnson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Luol Deng'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Kevin Martin'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['John Edwards'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Denzel Valentine'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Kenyon Martin'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Courtney Fortson'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Tiago Splitter'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Dirk Nowitzki'] Prediction:  TOP 5  Actual:  LOTTERY
+['Antonio McDyess'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Kevin Durant'] Prediction:  TOP 5  Actual:  TOP 5
+['Tyus Jones'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Rik Smits'] Prediction:  TOP 5  Actual:  TOP 5
+['Felton Spencer'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Kasib Powell'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Shaun Livingston'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['Eddie Basden'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Timothe Luwawu-Cabarrot'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Clyde Drexler'] Prediction:  TOP 5  Actual:  LOTTERY
+['Chris Owens'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Chris Gatling'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Courtney Lee'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Robert Hite'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Jarvis Varnado'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jaylen Brown'] Prediction:  UNDRAFTED  Actual:  TOP 5
+['DJ White'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Brendan Haywood'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Shabazz Napier'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Casper Ware'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Mikki Moore'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Bobby Portis'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Vonteego Cummings'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Mirza Teletovic'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Matt Bonner'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Glen Davis'] Prediction:  TOP 5  Actual:  SECOND ROUND
+['Howard Eisley'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Bruno Sundov'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Ha Ha'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Hot Rod Williams'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Ron Harper'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Bryant Stith'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Karl-Anthony Towns'] Prediction:  TOP 5  Actual:  TOP 5
+['Aron Baynes'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Geno Carlisle'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Zendon Hamilton'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Jakob Poeltl'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Kirk Hinrich'] Prediction:  TOP 5  Actual:  LOTTERY
+['Brent Scott'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Royce White'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Nik Stauskas'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Spud Webb'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Josh Childress'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Jeff Hornacek'] Prediction:  TOP 5  Actual:  SECOND ROUND
+['David Lee'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Harold Jamison'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Horace Grant'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Rodney Carney'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Paul McPherson'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Gerald Madkins'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Royal Ivey'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Duane Causwell'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Travis Williams'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Quincy Miller'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Nikoloz Tskitishvili'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Jerry Smith'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Nemanja Bjelica'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Jonathan Kerner'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Darko Milicic'] Prediction:  LOTTERY  Actual:  TOP 5
+['Andres Nocioni'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Stanley Roberts'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Sedale Threatt'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Aaron Brooks'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Shareef Abdur-Rahim'] Prediction:  TOP 5  Actual:  TOP 5
+['Milt Palacio'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Craig Brackins'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Brandon Rush'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Bison Dele'] Prediction:  TOP 5  Actual:  LOTTERY
+['Adam Morrison'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Wesley Person'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Alec Burks'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Joe Crispin'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Joe Young'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Miroslav Raduljica'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Bruce Bowen'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Rudy Fernandez'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Marcus Thornton'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Robert Horry'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+["Charles O'Bannon"] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Renaldo Balkman'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Carlos Delfino'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Jerome Dyson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Michael Kidd-Gilchrist'] Prediction:  TOP 5  Actual:  TOP 5
+['Esteban Batista'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Loy Vaught'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Lou Amundson'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Harrison Barnes'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Mike Brown'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Kirk Haston'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Chuck Person'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Julyan Stone'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Johnny Newman'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Darnell Jackson'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Troy Hudson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['James Jones'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Billy Owens'] Prediction:  LOTTERY  Actual:  TOP 5
+['Ray Allen'] Prediction:  LOTTERY  Actual:  TOP 5
+['Richard Jefferson'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Donald Sloan'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Andre Miller'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Tyler Johnson'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Willie Reed'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Solomon Alabi'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Andrew Bynum'] Prediction:  TOP 5  Actual:  LOTTERY
+['Marquese Chriss'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Sarunas Marciulionis'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Josh Richardson'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Jared Dudley'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Jeff Sheppard'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Byron Mullens'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Omri Casspi'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['J.R. Bremer'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Pooh Richardson'] Prediction:  UNDRAFTED  Actual:  LOTTERY
+['Nikola Pekovic'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Andrew Bogut'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Matt Bullard'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Darius Morris'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Dionte Christmas'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Craig Smith'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Keith Closs'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Antonio Anderson'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jalen Rose'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Samaki Walker'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Bubba Wells'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Keith McLeod'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Nemanja Nedovic'] Prediction:  UNDRAFTED  Actual:  LATE FIRST ROUND
+['Gary Forbes'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Salah Mejri'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Donta Smith'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['DeShawn Stevenson'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Negele Knight'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Kobe Bryant'] Prediction:  TOP 5  Actual:  LOTTERY
+['Chris Kaman'] Prediction:  TOP 5  Actual:  LOTTERY
+['Rex Chapman'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Morris Peterson'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['A.J. Bramlett'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['George Hill'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Antonio Daniels'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Joe Dumars'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Eddie House'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Keith Booth'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Andris Biedrins'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Andre Iguodala'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Tim Breaux'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Joe Stephens'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Elijah Millsap'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Gilbert Arenas'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Cherokee Parks'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Tony Allen'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Kelenna Azubuike'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Eddie Jones'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Nazr Mohammed'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Raja Bell'] Prediction:  TOP 5  Actual:  UNDRAFTED
+['Travis Diener'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Ira Bowman'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Fred Hoiberg'] Prediction:  LOTTERY  Actual:  SECOND ROUND
+['Jerome James'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+["Patrick O'Bryant"] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Aaron Gray'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Chris Morris'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Brian Roberts'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Scott Williams'] Prediction:  TOP 5  Actual:  UNDRAFTED
+['Ekpe Udoh'] Prediction:  LATE FIRST ROUND  Actual:  LOTTERY
+['Joakim Noah'] Prediction:  TOP 5  Actual:  LOTTERY
+['Jamie Watson'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Fabricio Oberto'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Dante Cunningham'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Adam Keefe'] Prediction:  SECOND ROUND  Actual:  LOTTERY
+['Jason Kidd'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Cody Zeller'] Prediction:  LATE FIRST ROUND  Actual:  TOP 5
+['Al Jefferson'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Mateen Cleaves'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Lawrence Roberts'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Nerlens Noel'] Prediction:  TOP 5  Actual:  LOTTERY
+['Lynn Greer'] Prediction:  LOTTERY  Actual:  UNDRAFTED
+['Kawhi Leonard'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Anthony Avent'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Dunleavy'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['James Posey'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['John Coker'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Jayson Williams'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Korleone Young'] Prediction:  UNDRAFTED  Actual:  SECOND ROUND
+['Monty Williams'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Brandin Knight'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Mike Miller'] Prediction:  LOTTERY  Actual:  TOP 5
+['Jason Terry'] Prediction:  TOP 5  Actual:  LOTTERY
+['Avery Bradley'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Brad Miller'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Drew Gordon'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Caris LeVert'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Joseph Forte'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Rashad McCants'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Larry Hughes'] Prediction:  TOP 5  Actual:  LOTTERY
+['Travis Best'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Corey Benjamin'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Brent Price'] Prediction:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Boniface Ndong'] Prediction:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['D.J. Kennedy'] Prediction:  SECOND ROUND  Actual:  UNDRAFTED
+['Thurl Bailey'] Prediction:  LOTTERY  Actual:  LOTTERY
+['Renaldo Major'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Dominique Jones'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['Desmond Mason'] Prediction:  TOP 5  Actual:  LATE FIRST ROUND
+['John Long'] Prediction:  LOTTERY  Actual:  LATE FIRST ROUND
+['Justin Harper'] Prediction:  SECOND ROUND  Actual:  SECOND ROUND
+['Reece Gaines'] Prediction:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['James Southerland'] Prediction:  UNDRAFTED  Actual:  UNDRAFTED
+['Eric Piatkowski'] Prediction:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jonas Valanciunas'] Prediction:  SECOND ROUND  Actual:  TOP 5
+['Tony Bobbitt'] Prediction:  TOP 5  Actual:  UNDRAFTED
+['Willie Anderson'] Prediction:  TOP 5  Actual:  LOTTERY
+['Torraye Braggs'] Prediction:  TOP 5  Actual:  SECOND ROUND
+KNN Accuracy:  0.31061806656101426
+['Alonzo Mourning']  Predict:  TOP 5  Actual:  TOP 5
+['Ashraf Amaya']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Damian Lillard']  Predict:  TOP 5  Actual:  LOTTERY
+['Ish Smith']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Carl Landry']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['Delonte West']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Gerald Wallace']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Ime Udoka']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Zan Tabak']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kyle Wiltjer']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jim Jackson']  Predict:  LOTTERY  Actual:  TOP 5
+['Ennis Whatley']  Predict:  UNDRAFTED  Actual:  LOTTERY
+['James White']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Brook Lopez']  Predict:  TOP 5  Actual:  LOTTERY
+['Melvin Booker']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Dante Exum']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Ryan Stack']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Vitaly Potapenko']  Predict:  LOTTERY  Actual:  LOTTERY
+['Theo Ratliff']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Toni Kukoc']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Andrew Goudelock']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kaniel Dickens']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Edy Tavares']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jeff Grayer']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Jason Thompson']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Tyson Wheeler']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Malcolm Brogdon']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['Scot Pollard']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Markel Brown']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['T.J. McConnell']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Shane Heal']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ryan Kelly']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Malik Rose']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Reggie Hanson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Erik Murphy']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['DJ Strawberry']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Stojko Vrankovic']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Lindsey Hunter']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Rawle Marshall']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Henry Ellenson']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Oleksiy Pecherov']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Salim Stoudamire']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Aaron Gordon']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Jumaine Jones']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jim McIlvaine']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Pete Chilcutt']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Chris Childs']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Richard Manning']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Greg Monroe']  Predict:  TOP 5  Actual:  LOTTERY
+['Kim English']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Peja Stojakovic']  Predict:  TOP 5  Actual:  LOTTERY
+['Steven Hill']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Mike Smith']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Bryce Drew']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Quinton Ross']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Nick Young']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Perry Jones III']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mark West']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Emanual Davis']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Stephen Curry']  Predict:  TOP 5  Actual:  LOTTERY
+['Malik Sealy']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Austin Daye']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ben Wallace']  Predict:  TOP 5  Actual:  UNDRAFTED
+['Terrence Williams']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Justin Dentmon']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Bonzi Wells']  Predict:  TOP 5  Actual:  LOTTERY
+['Bruno Caboclo']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['J.R. Henderson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kurt Thomas']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Ken Norman']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Victor Alexander']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Evan Turner']  Predict:  LOTTERY  Actual:  TOP 5
+['Fred Roberts']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Taylor']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Kyle Anderson']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Luis Flores']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Alex Kirk']  Predict:  UNDRAFTED  Actual:  UNDRAFTED
+['Jason Williams']  Predict:  LOTTERY  Actual:  LOTTERY
+['Quincy Lewis']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Felipe Lopez']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Michael Jordan']  Predict:  TOP 5  Actual:  TOP 5
+['Damon Jones']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Pat Garrity']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Rodrigue Beaubois']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Chris Wright']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['P.J. Brown']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Efthimios Rentzias']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Tyrus Thomas']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Lazar Hayward']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Troy Murphy']  Predict:  TOP 5  Actual:  LOTTERY
+['Toney Douglas']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Michael Dickerson']  Predict:  LOTTERY  Actual:  LOTTERY
+['Jamal Robinson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Anthony Carter']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Steve Henson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Will Barton']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Marshall Plumlee']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Brooks Thompson']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Don Reid']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Stanley Johnson']  Predict:  LOTTERY  Actual:  LOTTERY
+['Sean Williams']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Damon Stoudamire']  Predict:  TOP 5  Actual:  LOTTERY
+['Darryl Watkins']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Cezary Trybanski']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Chris Mullin']  Predict:  LOTTERY  Actual:  LOTTERY
+['Jarrett Jack']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Sam Cassell']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Joey Dorsey']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Sasha Kaun']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kay Felder']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jerome Allen']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Montrezl Harrell']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Anthony Grundy']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Robert Sacre']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['John Henson']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Hamady Ndiaye']  Predict:  UNDRAFTED  Actual:  SECOND ROUND
+['Ansu Sesay']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Myles Turner']  Predict:  TOP 5  Actual:  LOTTERY
+['Chris Paul']  Predict:  TOP 5  Actual:  TOP 5
+['Tony Massenburg']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Kyle Singler']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Pepe Sanchez']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Casey Jacobsen']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Joe Harris']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Tristan Thompson']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Chasson Randle']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Travis Knight']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Paul Grant']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Darrin Hancock']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Derek Grimm']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jeryl Sasser']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ryan Reid']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Ronnie Brewer']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Gary Payton II']  Predict:  UNDRAFTED  Actual:  UNDRAFTED
+['Julian Wright']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Jonathon Simmons']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Nicolas Laprovittola']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ruben Patterson']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['James Cotton']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Gerald Fitch']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Mark Blount']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Charles Smith']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Terry Davis']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Cartier Martin']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ray McCallum']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Al Harrington']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Anthony Parker']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Skal Labissiere']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Derrick Jones Jr.']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ryan Bowen']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Michael Bradley']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Jordan Hill']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Sherron Collins']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Sarunas Jasikevicius']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Robbie Hummel']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Tony Battie']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Justise Winslow']  Predict:  LOTTERY  Actual:  LOTTERY
+['Olden Polynice']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Antoine Walker']  Predict:  TOP 5  Actual:  LOTTERY
+['Marco Belinelli']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jason Collier']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Nikola Vucevic']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Carlos Arroyo']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Randy Brown']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Shawne Williams']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Luke Babbitt']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Donnell Harvey']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Isaiah Taylor']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Vincent Yarbrough']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Al Thornton']  Predict:  LOTTERY  Actual:  LOTTERY
+['Reggie Geary']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Georgios Papagiannis']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Ryan Gomes']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Lonny Baxter']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Evan Eschmeyer']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Greg Ostertag']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Mario Elie']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['Roko Ukic']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Deron Williams']  Predict:  TOP 5  Actual:  TOP 5
+['Jason Collins']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Tremaine Fowlkes']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kelly Olynyk']  Predict:  LOTTERY  Actual:  LOTTERY
+['Jason Smith']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jabari Smith']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['DeJuan Blair']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jerel McNeal']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Dragan Tarlac']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Brandon Williams']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jared Sullinger']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Donnie Boyce']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Alvin Williams']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Frank Kaminsky']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jerome Williams']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Chris Crawford']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Bryce Cotton']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Brent Barry']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Nikola Jokic']  Predict:  TOP 5  Actual:  SECOND ROUND
+['Anthony Bennett']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Tony Mitchell']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Nate McMillan']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Carl Herrera']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Coby Karl']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Gordon Hayward']  Predict:  TOP 5  Actual:  LOTTERY
+['Ivica Zubac']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Marko Jaric']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jerald Honeycutt']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Vernon Maxwell']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Marcus Morris']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Baron Davis']  Predict:  TOP 5  Actual:  TOP 5
+['Stephen Graham']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Boris Diaw']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Semih Erden']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Nate Robinson']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Will Cherry']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Arron Afflalo']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['DeMarco Johnson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Willy Hernangomez']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Cory Higgins']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Wesley Matthews']  Predict:  TOP 5  Actual:  UNDRAFTED
+['Dana Barros']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Will Perdue']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Keyon Dooling']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+["Dontae' Jones"]  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ken Johnson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Pascal Siakam']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Keith Van Horn']  Predict:  TOP 5  Actual:  TOP 5
+['CJ McCollum']  Predict:  TOP 5  Actual:  LOTTERY
+['Lloyd Daniels']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Pat Connaughton']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Hasheem Thabeet']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Loren Woods']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Seth Curry']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Elias Harris']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Tyronn Lue']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['David Vanterpool']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Damien Wilkins']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Aleksandar Radojevic']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Acie Law']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Joffrey Lauvergne']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Mark Jackson']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jonathan Gibson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Linton Johnson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Brian Oliver']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Aaron Miles']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Zabian Dowdell']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Miles Plumlee']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Ruben Nembhard']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Steven Hunter']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['David Wingate']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Brian Scalabrine']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Lorenzo Williams']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Goran Dragic']  Predict:  TOP 5  Actual:  SECOND ROUND
+['Kiwane Garris']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Dickey Simpkins']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Sasha Pavlovic']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['John Crotty']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Thanasis Antetokounmpo']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jonas Jerebko']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['David West']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Scottie Pippen']  Predict:  TOP 5  Actual:  TOP 5
+['Ledell Eackles']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['DJ Stephens']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ed Pinckney']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Duane Ferrell']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Martin Lewis']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Juwan Howard']  Predict:  TOP 5  Actual:  TOP 5
+['Michael Doleac']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Gigi Datome']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Anthony Bowie']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Steve Novak']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Lamond Murray']  Predict:  LOTTERY  Actual:  LOTTERY
+['Nicolas Brussino']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Antoine Carr']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Garrett Temple']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Kevin Burleson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Michael Stewart']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jake Voskuhl']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Walter McCarty']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Nick Johnson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Joel Embiid']  Predict:  TOP 5  Actual:  TOP 5
+['Sean May']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Taurean Prince']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Glenn Robinson']  Predict:  TOP 5  Actual:  TOP 5
+['Harold Ellis']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Cedric Henderson']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Mahmoud Abdul-Rauf']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Clint Capela']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Lorenzen Wright']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Yogi Ferrell']  Predict:  LOTTERY  Actual:  UNDRAFTED
+['Steven Adams']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jabari Parker']  Predict:  TOP 5  Actual:  TOP 5
+['Thaddeus Young']  Predict:  TOP 5  Actual:  LOTTERY
+['Morris Almond']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Matt Fish']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jeff Foster']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Todd Fuller']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Andre Drummond']  Predict:  TOP 5  Actual:  LOTTERY
+['Yakhouba Diawara']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Pops Mensah-Bonsu']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Armen Gilliam']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Kenny Anderson']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Tariq Abdul-Wahad']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Andreas Glyniadakis']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jerome Jordan']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Will Solomon']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Ike Austin']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jeremy Evans']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Rafael Araujo']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Terry Cummings']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Jackie Butler']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Chris Taft']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Michael Hawkins']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Patrick Patterson']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Lucas Nogueira']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Javaris Crittenton']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Kevin Ollie']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Earl Cureton']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Dwight Powell']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Hamed Haddadi']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Aaron McKie']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Mookie Blaylock']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Dexter Pittman']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Mike Conley']  Predict:  TOP 5  Actual:  TOP 5
+['Russ Smith']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Damjan Rudez']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Cheick Diallo']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Tracy Moore']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Zarko Cabarkapa']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Bimbo Coles']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Reggie Bullock']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Frank Brickowski']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Hedo Turkoglu']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['David Vaughn']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Kent Bazemore']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Ivan Johnson']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Reggie Williams']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Steve Goodrich']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Peyton Siva']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Mickell Gladness']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Adonal Foyle']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Julius Randle']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Dennis Scott']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Derrick Favors']  Predict:  TOP 5  Actual:  TOP 5
+['Mustafa Shakur']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Bill Curley']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Darvin Ham']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ognjen Kuzmic']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['A.C. Green']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Zach Randolph']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Luke Ridnour']  Predict:  LOTTERY  Actual:  LOTTERY
+['Will Bynum']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Ronny Turiaf']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Othello Hunter']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+["D'Angelo Russell"]  Predict:  LOTTERY  Actual:  TOP 5
+['Tyler Hansbrough']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Clifford Rozier']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Sam Mack']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Desmon Farmer']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Billy Thomas']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jermaine Taylor']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Emeka Okafor']  Predict:  TOP 5  Actual:  TOP 5
+['Ben Uzoh']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Gerald Henderson']  Predict:  LOTTERY  Actual:  LOTTERY
+['Martin Muursepp']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Sean Elliott']  Predict:  LOTTERY  Actual:  TOP 5
+['Dewayne Dedmon']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jerome Kersey']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Brandan Wright']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Rodney Buford']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Corsley Edwards']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jamal Sampson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['James Thomas']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Walter Sharpe']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['David Wear']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Darren Collison']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Jeff Foote']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Sean Marks']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Willie Green']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Corliss Williamson']  Predict:  TOP 5  Actual:  LOTTERY
+['Dee Brown']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Otis Thorpe']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Speedy Claxton']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Danny Fortson']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Cal Bowdler']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Harris']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Brandon Armstrong']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Eddie Gill']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Armon Johnson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['George McCloud']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Alex Stepheson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Zach LaVine']  Predict:  LOTTERY  Actual:  LOTTERY
+['Axel Toupane']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Meyers Leonard']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Qyntel Woods']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Slavko Vranes']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Cuttino Mobley']  Predict:  TOP 5  Actual:  SECOND ROUND
+['Ike Diogu']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Derrick McKey']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Larry Stewart']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Jeff Adrien']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Anthony Randolph']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Pooh Jeter']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Samardo Samuels']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Rodney Rogers']  Predict:  LOTTERY  Actual:  LOTTERY
+['Leandro Barbosa']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Otto Porter Jr.']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Shelden Williams']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Mardy Collins']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Shavlik Randolph']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Brandon Knight']  Predict:  LOTTERY  Actual:  LOTTERY
+['Taylor Griffin']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Chris Johnson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Luol Deng']  Predict:  TOP 5  Actual:  LOTTERY
+['Kevin Martin']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['John Edwards']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Denzel Valentine']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Kenyon Martin']  Predict:  TOP 5  Actual:  TOP 5
+['Courtney Fortson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Tiago Splitter']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Dirk Nowitzki']  Predict:  TOP 5  Actual:  LOTTERY
+['Antonio McDyess']  Predict:  TOP 5  Actual:  TOP 5
+['Kevin Durant']  Predict:  TOP 5  Actual:  TOP 5
+['Tyus Jones']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Rik Smits']  Predict:  TOP 5  Actual:  TOP 5
+['Felton Spencer']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Kasib Powell']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Shaun Livingston']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Eddie Basden']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Timothe Luwawu-Cabarrot']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Clyde Drexler']  Predict:  TOP 5  Actual:  LOTTERY
+['Chris Owens']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Chris Gatling']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Courtney Lee']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Robert Hite']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jarvis Varnado']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Jaylen Brown']  Predict:  SECOND ROUND  Actual:  TOP 5
+['DJ White']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Brendan Haywood']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Shabazz Napier']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Casper Ware']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Mikki Moore']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Bobby Portis']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Vonteego Cummings']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Mirza Teletovic']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Matt Bonner']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Glen Davis']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Howard Eisley']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Bruno Sundov']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Ha Ha']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Hot Rod Williams']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Ron Harper']  Predict:  LOTTERY  Actual:  LOTTERY
+['Bryant Stith']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Karl-Anthony Towns']  Predict:  TOP 5  Actual:  TOP 5
+['Aron Baynes']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Geno Carlisle']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Zendon Hamilton']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jakob Poeltl']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Kirk Hinrich']  Predict:  LOTTERY  Actual:  LOTTERY
+['Brent Scott']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Royce White']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Nik Stauskas']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Spud Webb']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Josh Childress']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Jeff Hornacek']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['David Lee']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Harold Jamison']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Horace Grant']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Rodney Carney']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Paul McPherson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Gerald Madkins']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Royal Ivey']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Duane Causwell']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Travis Williams']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Quincy Miller']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Nikoloz Tskitishvili']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Jerry Smith']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Nemanja Bjelica']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jonathan Kerner']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Darko Milicic']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Andres Nocioni']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Stanley Roberts']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Sedale Threatt']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Aaron Brooks']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Shareef Abdur-Rahim']  Predict:  TOP 5  Actual:  TOP 5
+['Milt Palacio']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Craig Brackins']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Brandon Rush']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Bison Dele']  Predict:  TOP 5  Actual:  LOTTERY
+['Adam Morrison']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Wesley Person']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Alec Burks']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Joe Crispin']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Joe Young']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Miroslav Raduljica']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Bruce Bowen']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Rudy Fernandez']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Marcus Thornton']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['Robert Horry']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+["Charles O'Bannon"]  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Renaldo Balkman']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Carlos Delfino']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jerome Dyson']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Michael Kidd-Gilchrist']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Esteban Batista']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Loy Vaught']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Lou Amundson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Harrison Barnes']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Mike Brown']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Kirk Haston']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Chuck Person']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Julyan Stone']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Johnny Newman']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Darnell Jackson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Troy Hudson']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['James Jones']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Billy Owens']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Ray Allen']  Predict:  TOP 5  Actual:  TOP 5
+['Richard Jefferson']  Predict:  TOP 5  Actual:  LOTTERY
+['Donald Sloan']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Andre Miller']  Predict:  LOTTERY  Actual:  LOTTERY
+['Tyler Johnson']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Willie Reed']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Solomon Alabi']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Andrew Bynum']  Predict:  TOP 5  Actual:  LOTTERY
+['Marquese Chriss']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Sarunas Marciulionis']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Josh Richardson']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jared Dudley']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jeff Sheppard']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Byron Mullens']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Omri Casspi']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['J.R. Bremer']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Pooh Richardson']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Nikola Pekovic']  Predict:  TOP 5  Actual:  SECOND ROUND
+['Andrew Bogut']  Predict:  TOP 5  Actual:  TOP 5
+['Matt Bullard']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Darius Morris']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Dionte Christmas']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Craig Smith']  Predict:  LOTTERY  Actual:  SECOND ROUND
+['Keith Closs']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Antonio Anderson']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jalen Rose']  Predict:  TOP 5  Actual:  LOTTERY
+['Samaki Walker']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Bubba Wells']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Keith McLeod']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Nemanja Nedovic']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Gary Forbes']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Salah Mejri']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Donta Smith']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['DeShawn Stevenson']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Negele Knight']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Kobe Bryant']  Predict:  TOP 5  Actual:  LOTTERY
+['Chris Kaman']  Predict:  TOP 5  Actual:  LOTTERY
+['Rex Chapman']  Predict:  LOTTERY  Actual:  LOTTERY
+['Morris Peterson']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['A.J. Bramlett']  Predict:  UNDRAFTED  Actual:  SECOND ROUND
+['George Hill']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Antonio Daniels']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Joe Dumars']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Eddie House']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Keith Booth']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Andris Biedrins']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Andre Iguodala']  Predict:  TOP 5  Actual:  LOTTERY
+['Tim Breaux']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Joe Stephens']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Elijah Millsap']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Gilbert Arenas']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Cherokee Parks']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Tony Allen']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Kelenna Azubuike']  Predict:  LOTTERY  Actual:  UNDRAFTED
+['Eddie Jones']  Predict:  TOP 5  Actual:  LOTTERY
+['Nazr Mohammed']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Raja Bell']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Travis Diener']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Ira Bowman']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Fred Hoiberg']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Jerome James']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+["Patrick O'Bryant"]  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Aaron Gray']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Chris Morris']  Predict:  SECOND ROUND  Actual:  TOP 5
+['Brian Roberts']  Predict:  LATE FIRST ROUND  Actual:  UNDRAFTED
+['Scott Williams']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Ekpe Udoh']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Joakim Noah']  Predict:  TOP 5  Actual:  LOTTERY
+['Jamie Watson']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Fabricio Oberto']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Dante Cunningham']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Adam Keefe']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Jason Kidd']  Predict:  TOP 5  Actual:  TOP 5
+['Cody Zeller']  Predict:  LATE FIRST ROUND  Actual:  TOP 5
+['Al Jefferson']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Mateen Cleaves']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Lawrence Roberts']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Nerlens Noel']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Lynn Greer']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Kawhi Leonard']  Predict:  TOP 5  Actual:  LATE FIRST ROUND
+['Anthony Avent']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Mike Dunleavy']  Predict:  TOP 5  Actual:  TOP 5
+['James Posey']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['John Coker']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Jayson Williams']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Korleone Young']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Monty Williams']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Brandin Knight']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Mike Miller']  Predict:  TOP 5  Actual:  TOP 5
+['Jason Terry']  Predict:  LOTTERY  Actual:  LOTTERY
+['Avery Bradley']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Brad Miller']  Predict:  TOP 5  Actual:  UNDRAFTED
+['Drew Gordon']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Caris LeVert']  Predict:  LOTTERY  Actual:  LATE FIRST ROUND
+['Joseph Forte']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Rashad McCants']  Predict:  LATE FIRST ROUND  Actual:  LOTTERY
+['Larry Hughes']  Predict:  LOTTERY  Actual:  LOTTERY
+['Travis Best']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Corey Benjamin']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Brent Price']  Predict:  LATE FIRST ROUND  Actual:  SECOND ROUND
+['Boniface Ndong']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['D.J. Kennedy']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Thurl Bailey']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Renaldo Major']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Dominique Jones']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Desmond Mason']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['John Long']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['Justin Harper']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+['Reece Gaines']  Predict:  SECOND ROUND  Actual:  LATE FIRST ROUND
+['James Southerland']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Eric Piatkowski']  Predict:  LATE FIRST ROUND  Actual:  LATE FIRST ROUND
+['Jonas Valanciunas']  Predict:  TOP 5  Actual:  TOP 5
+['Tony Bobbitt']  Predict:  SECOND ROUND  Actual:  UNDRAFTED
+['Willie Anderson']  Predict:  SECOND ROUND  Actual:  LOTTERY
+['Torraye Braggs']  Predict:  SECOND ROUND  Actual:  SECOND ROUND
+Accuracy:  0.3153724247226624
