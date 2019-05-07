@@ -137,15 +137,6 @@ def linear_reg(x_values, y_values):
 def test_linear(slope, b, test_x, test_y, names):
     acc = 0
     sleepers = []
-<<<<<<< HEAD
-    for idx, row in enumerate(test):
-        if abs(int(predict[idx])-int(row[-1])) <= 7:
-            acc += 1
-        if int(predict[idx]) > int(row[-1]):
-            sleepers.append(row[0])
-        print(row[0],  ": Pred=", int(predict[idx]), " Actual=", int(row[-1]))
-    print("Accuracy: ", (acc/len(test_x)))
-=======
     for idx, row in enumerate(test_x):
         guess = results_linear_reg(slope, b, row)
 
@@ -156,48 +147,15 @@ def test_linear(slope, b, test_x, test_y, names):
         print(names[idx],  ": Pred=", draft_converter(int(int(guess))),
               " Actual=", draft_converter(test_y[idx]))
     print("Accuracy: ", (acc/len(test_y)))
->>>>>>> bd084776936d950f5671161aae45115a7742e6d5
 
 
 def normalize(xs, x):
     return (x - min(xs)) / ((max(xs) - min(xs)) * 1.0)
 
 
-<<<<<<< HEAD
-def knn(table, k):
-
-    train, test = compute_holdout_partitions(table)
-
-    knn_train = []
-    knn_test = []
-    knn_test_names = []
-
-    for row in test:
-        knn_test_names.append(row[0])
-        knn_test.append(row[1::])
-
-    for row in train:
-        knn_train.append(row[1::])
-
-    for idx, row in enumerate(knn_train):
-        for ind, i in enumerate(row[:-1]):
-            xs = get_column(knn_train, ind)
-            knn_train[idx][ind] = normalize(xs, i)
-
-    for idx, row in enumerate(knn_test):
-        for ind, i in enumerate(row[:-1]):
-            xs = get_column(knn_test, ind)
-            knn_test[idx][ind] = normalize(xs, i)
-
-    for ind, i in enumerate(knn_test):
-        x = getNeighbors(knn_train, len(knn_test[0]), knn_test[ind], 3)
-        print(knn_test_names[ind], " Predicted label: ",
-              int(x), " Actual: ", knn_test[ind][-1])
-=======
 def knn(train_x, test_x, k):
     x = getNeighbors(train_x, len(train_x[0]), test_x, 5)
     return x
->>>>>>> bd084776936d950f5671161aae45115a7742e6d5
 
 
 def compute_distance(v1, v2, length):
@@ -309,13 +267,6 @@ def calculateClassProbabilities(summaries, inputVector):
     return probabilities
 
 
-<<<<<<< HEAD
-if __name__ == '__main__':
-    players = org_players('all_seasons.csv', headers)
-    table = sort_to_table(players)
-    print(table[697])
-    naive_bayes(table)
-=======
 def bootstrap(table):
     return [table[random.randint(0, len(table)-1)] for _ in range(len(table))]
 
@@ -411,7 +362,9 @@ if __name__ == '__main__':
         print(knn_test_names[idx], "Prediction: ",
               draft_converter(pred), " Actual: ", draft_converter(row[-1]))
     print("KNN Accuracy: ", knn_acc/len(xTs))
-    print('/n /n /n /n /n')
+    print("\n \n \n \n \n")
+
+    print("NAIVE BAYES (NOT SKLEARN)")
     y_naive = get_column(table, 9)
     x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
     xT, xTs, yTrain, yTest = train_test_split(
@@ -430,4 +383,3 @@ if __name__ == '__main__':
         print(naive_test_names[idx], " Predict: ",
               draft_converter(p), " Actual: ", draft_converter(row[-1]))
     print("Accuracy: ", naive_acc/len(xTs))
->>>>>>> bd084776936d950f5671161aae45115a7742e6d5
