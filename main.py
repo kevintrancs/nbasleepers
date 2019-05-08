@@ -363,7 +363,6 @@ def ensemble(table):
                 knn_sleepers.append(knn_test_names[idx])
 
     print("Ensemble KNN Accuracy: ", knn_acc/len(xTs))
-    print("Ensemble KNN Sleepers:", knn_sleepers)
     print("\n \n \n \n \n")
 
 def useful_rows(table, idxs):
