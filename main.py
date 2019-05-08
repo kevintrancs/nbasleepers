@@ -1,5 +1,4 @@
 # 5 is net rating
-
 import csv
 import matplotlib.pyplot as plot
 import random
@@ -434,64 +433,88 @@ def sleeper_definer(players):
             players[k].sleeper = 1
 
 def data_analysis(players, table):
-    # ########################################################
-    # Net Rating vs Draft pick defining how we do our sleepers
-    # ########################################################
-    avgs = {"TOP 5": [],  "LOTTERY": [],
-            "LATE FIRST ROUND": [], "SECOND ROUND": [], "UNDRAFTED": []}
+
+    avg_data = {'gp': 0, 'pts': 0, 'ast':0, 'reb':0, 'net_rating': 0, 'usg_pct': 0, 'ts_pct': 0, 'ast_pct':0}
 
     for k, v in players.items():
+        avg_data['gp'] += v.gp
+        avg_data['pts'] += v.pts
+        avg_data['ast'] += v.ast
+        avg_data['reb'] += v.reb
+        avg_data['net_rating'] += v.net_rating
+        avg_data['usg_pct'] += v.usg_pct
+        avg_data['ts_pct'] += v.ts_pct
+        avg_data['ast_pct'] += v.ast_pct
 
-        player_draft = draft_converter(int(v.draft_number))
-        avgs[player_draft].append(v.net_rating)
-
-    for k, v in avgs.items():
-        avgs[k] = sum(v)/len(v)
     
-    y = [ v for k, v in avgs.items()]
-    x = [ k for k, v in avgs.items()]
-
-    plot.plot(x, y, color='blue')
-    plot.title('Net Rating vs Draft Spot')
-    plot.xlabel('Draft Pick')
-    plot.ylabel('Net Rating')
-    plot.show()
-
-
-
-    # ########################################################
-    # AMOUNT OF PEOPLE IN DRAFT AT THE NUMBER OF IT 
-    # ########################################################
-    freq = {}
-    for p in table:
-        if p[9] in freq:
-            freq[p[9]] += 1
-        else:
-            freq[p[9]] = 1
-
-    y = np.array([v for k,v in freq.items()])
-    x = np.array([k for k,v in freq.items()])
+    for key, value in avg_data.items():
+        avg_data[key] = value/len(players)
+    print("########################")
+    print("Stat Summary of the Data")
+    print("########################")
+    print("Total Unqiue Players Analyzed: ", len(players))
+    for key, value in avg_data.items():
+        print("Average ", key,": ", value)
 
 
-    plt.bar(x, y, color='green')
-    plt.xlabel("Draft Number")
-    plt.ylabel("Count")
-    plt.title("Frequency of Draft Numbers")
-    plt.show()
+    # # ########################################################
+    # # Net Rating vs Draft pick defining how we do our sleepers
+    # # ########################################################
+    # avgs = {"TOP 5": [],  "LOTTERY": [],
+    #         "LATE FIRST ROUND": [], "SECOND ROUND": [], "UNDRAFTED": []}
 
-    # ########################################################
-    # Which value was more important in usuage vs net rating
-    # ########################################################
+    # for k, v in players.items():
+
+    #     player_draft = draft_converter(int(v.draft_number))
+    #     avgs[player_draft].append(v.net_rating)
+
+    # for k, v in avgs.items():
+    #     avgs[k] = sum(v)/len(v)
+    
+    # y = [ v for k, v in avgs.items()]
+    # x = [ k for k, v in avgs.items()]
+
+    # plot.plot(x, y, color='blue')
+    # plot.title('Net Rating vs Draft Spot')
+    # plot.xlabel('Draft Pick')
+    # plot.ylabel('Net Rating')
+    # plot.show()
 
 
-    y = [p[6] for p in table]
-    x = [p[5] for p in table]
 
-    plt.scatter(y, x, alpha=0.5)
-    plt.ylabel("Net Rating")
-    plt.xlabel("Usage Percentage")
-    plt.title("Net Rating vs Usage Percentage")
-    plt.show()
+    # # ########################################################
+    # # AMOUNT OF PEOPLE IN DRAFT AT THE NUMBER OF IT 
+    # # ########################################################
+    # freq = {}
+    # for p in table:
+    #     if p[9] in freq:
+    #         freq[p[9]] += 1
+    #     else:
+    #         freq[p[9]] = 1
+
+    # y = np.array([v for k,v in freq.items()])
+    # x = np.array([k for k,v in freq.items()])
+
+
+    # plt.bar(x, y, color='green')
+    # plt.xlabel("Draft Number")
+    # plt.ylabel("Count")
+    # plt.title("Frequency of Draft Numbers")
+    # plt.show()
+
+    # # ########################################################
+    # # Which value was more important in usuage vs net rating
+    # # ########################################################
+
+
+    # y = [p[6] for p in table]
+    # x = [p[5] for p in table]
+
+    # plt.scatter(y, x, alpha=0.5)
+    # plt.ylabel("Net Rating")
+    # plt.xlabel("Usage Percentage")
+    # plt.title("Net Rating vs Usage Percentage")
+    # plt.show()
 
 
 
@@ -572,11 +595,11 @@ if __name__ == '__main__':
     table = sort_to_table(players)
     
     data_analysis(players, table)
-    linear(table)
-    knn_ex(table)
-    naive_bayes(table)
+    # linear(table)
+    # knn_ex(table)
+    # naive_bayes(table)
 
-    ensemble(table)
-    sklearn_linear(table)
-    sklearn_naive(table)
-    sklearn_knn(table)
+    # ensemble(table)
+    # sklearn_linear(table)
+    # sklearn_naive(table)
+    # sklearn_knn(table)
