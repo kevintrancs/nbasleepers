@@ -1,5 +1,4 @@
-# rebuild linear knn and naive bayes so they are return the model so we can use for bagging or wahtever the fuck
-
+# 5 is net rating
 
 import csv
 import matplotlib.pyplot as plot
@@ -11,6 +10,9 @@ import operator
 from csv import DictWriter, DictReader
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import metrics
+
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
            'gp', 'pts', 'reb', 'ast', 'net_rating', 'usg_pct', 'ts_pct', 'ast_pct']
 linearRegressor = LinearRegression()
@@ -275,6 +277,32 @@ def bootstrap(table):
     return [table[random.randint(0, len(table)-1)] for _ in range(len(table))]
 
 
+def sklearn_knn(table):
+    y_knn = get_column(table, 10)
+    x_knn = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_knn, y_knn, test_size=1/3, random_state=0)
+
+    knn_test_names = useful_rows(xTs, [0])
+    xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9])
+    xTs = useful_rows(xTs, [1,2,3,4,5,6,7,8,9])
+
+    for idx, row in enumerate(xT):
+        for ind, i in enumerate(row):
+            xs = get_column(xT, ind)
+            xT[idx][ind] = normalize(xs, i)
+    for idx, row in enumerate(xTs):
+        for ind, i in enumerate(row):
+            xs = get_column(xTs, ind)
+            xTs[idx][ind] = normalize(xs, i)
+
+    knn = KNeighborsClassifier(n_neighbors=5)
+    knn.fit(xT, yTrain)
+    y_pred = knn.predict(xTs)
+    score = metrics.accuracy_score(yTest, y_pred)
+    print(score)
+
+
 def ensemble(table):
     print("EMSEMBLE KNN DIFFERENT ")
     knn_sleepers = []
@@ -364,15 +392,13 @@ def sleeper_definer(players):
 
 if __name__ == '__main__':
     players = org_players('all_seasons.csv', headers)
-
     sleeper_definer(players)
     table = sort_to_table(players)
-
-    # bagging(table)
+    print(table[9])
 
     # print("LINEAR (NOT SKLEARN)")
     # y_values = get_column(table, 10)
-    # x_values = useful_rows(table, [0, 2])
+    # x_values = useful_rows(table, [0, 5])
 
     # xT, xTs, yTrain, yTest = train_test_split(
     #     x_values, y_values, test_size=1/3, random_state=0)
@@ -384,7 +410,7 @@ if __name__ == '__main__':
     # slope, b = linear_reg(xTrain, yTrain)
     # test_linear(slope, b, xTest, yTest, xTest_names)
 
-    # SKLEARN - Linear
+    # # SKLEARN - Linear
     # xTrain = np.array(xTrain)
     # yTrain = np.array(yTrain)
     # xTrain = xTrain.reshape(-1, 1)
@@ -402,9 +428,9 @@ if __name__ == '__main__':
     # print(accuracy)
     # plot.scatter(xTrain, yTrain, color='red')
     # plot.plot(xTrain, linearRegressor.predict(xTrain), color='blue')
-    # plot.title('Draft Number vs PPG')
-    # plot.xlabel('PPG')
-    # plot.ylabel('Draft')
+    # plot.title('Sleeper vs Net Rating')
+    # plot.xlabel('Net Rating')
+    # plot.ylabel('Sleep')
     # plot.show()
     # print("\n \n \n \n \n")
 
@@ -459,4 +485,6 @@ if __name__ == '__main__':
     #           p, " Actual: ", row[-1])
     # print("Accuracy: ", naive_acc/len(xTs))
 
-    ensemble(table)
+    # ensemble(table)
+
+    sklearn_knn(table)
