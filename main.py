@@ -12,6 +12,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import metrics
+from sklearn.naive_bayes import GaussianNB, BernoulliNB, MultinomialNB
+import matplotlib.pyplot as plt 
+import matplotlib
+import numpy as np
+from matplotlib.colors import ListedColormap
+matplotlib.style.use('ggplot') 
 
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
            'gp', 'pts', 'reb', 'ast', 'net_rating', 'usg_pct', 'ts_pct', 'ast_pct']
@@ -160,7 +166,7 @@ def normalize(xs, x):
 
 
 def knn(train_x, test_x, k):
-    x = getNeighbors(train_x, len(train_x[0]), test_x, 5)
+    x = getNeighbors(train_x, len(train_x[0]), test_x, k)
     return x
 
 
@@ -295,16 +301,44 @@ def sklearn_knn(table):
         for ind, i in enumerate(row):
             xs = get_column(xTs, ind)
             xTs[idx][ind] = normalize(xs, i)
+    scores = []
 
-    knn = KNeighborsClassifier(n_neighbors=5)
-    knn.fit(xT, yTrain)
-    y_pred = knn.predict(xTs)
+    for k in range(1,15):
+        knn = KNeighborsClassifier(n_neighbors=k)
+        knn.fit(xT, yTrain)
+        y_pred = knn.predict(xTs)
+        scores.append(metrics.accuracy_score(yTest, y_pred))
+
+    plt.plot(range(1,15), scores)
+    plt.xlabel('Value of K for KNN')
+    plt.ylabel('Testing Accuracy')
+    plt.show()
+
+
+def sklearn_naive(table):
+    print("SKLEARN NAIVE BAYES")
+    gnb = GaussianNB()
+
+    y_naive = get_column(table, 10)
+    x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_naive, y_naive, test_size=1/3, random_state=0)
+    y_test_names = useful_rows(xTs, [0])
+    xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9])
+    xTs = useful_rows(xTs, [1,2,3,4,5,6,7,8,9])
+    gnb.fit(xT, yTrain)
+    y_pred = gnb.predict(xTs)
     score = metrics.accuracy_score(yTest, y_pred)
-    print(score)
+    print("SKLEARN NAIVE ACCURACY: ", score)
+
+    plt.hist([yTest, y_pred], bins=np.linspace(0, 1, 5), label=['Actual', 'Prediction'])
+    plt.legend(loc='upper right')
+    plt.show()
+
 
 
 def ensemble(table):
-    print("EMSEMBLE KNN DIFFERENT ")
+    print("EMSEMBLE KNN DIFFERENT ATTRIBUTES SELECTED")
     knn_sleepers = []
     y_knn = get_column(table, 10)
     x_knn = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
@@ -349,7 +383,6 @@ def ensemble(table):
     print("Ensemble KNN Sleepers:", knn_sleepers)
     print("\n \n \n \n \n")
 
-
 def useful_rows(table, idxs):
     t = []
     for row in table:
@@ -361,8 +394,40 @@ def useful_rows(table, idxs):
     return t
 
 
-def sklearn_linear():
-    pass
+def sklearn_linear(table):
+    print("SKLEARN LINEAR")
+    y_values = get_column(table, 10)
+    x_values = useful_rows(table, [0, 5])
+
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_values, y_values, test_size=1/3, random_state=0)
+
+    xTest_names = useful_rows(xTs, [0])
+    xTrain = useful_rows(xT, [1])
+    xTest = useful_rows(xTs, [1])
+    xTrain = np.array(xTrain)
+    yTrain = np.array(yTrain)
+    xTrain = xTrain.reshape(-1, 1)
+    yTrain = yTrain.reshape(-1, 1)
+
+    xTest = np.array(xTest)
+    yTest = np.array(yTest)
+    xTest = xTest.reshape(-1, 1)
+    yTest = yTest.reshape(-1, 1)
+
+    linearRegressor.fit(xTrain, yTrain)
+    yPrediction = linearRegressor.predict(xTest)
+
+    plot.scatter(xTrain, yTrain, color='red')
+    plot.plot(xTrain, linearRegressor.predict(xTrain), color='blue')
+    plot.title('Sleeper vs Net Rating')
+    plot.xlabel('Net Rating')
+    plot.ylabel('Sleep')
+    plot.show()
+
+    print(metrics.accuracy_score(yTest, yPrediction))
+
+    print("\n \n \n \n \n")
 
 
 def sleeper_definer(players):
@@ -394,97 +459,76 @@ if __name__ == '__main__':
     players = org_players('all_seasons.csv', headers)
     sleeper_definer(players)
     table = sort_to_table(players)
-    print(table[9])
 
-    # print("LINEAR (NOT SKLEARN)")
-    # y_values = get_column(table, 10)
-    # x_values = useful_rows(table, [0, 5])
+    print("LINEAR (NOT SKLEARN)")
+    y_values = get_column(table, 10)
+    x_values = useful_rows(table, [0, 5])
 
-    # xT, xTs, yTrain, yTest = train_test_split(
-    #     x_values, y_values, test_size=1/3, random_state=0)
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_values, y_values, test_size=1/3, random_state=0)
 
-    # xTest_names = useful_rows(xTs, [0])
-    # xTrain = useful_rows(xT, [1])
-    # xTest = useful_rows(xTs, [1])
+    xTest_names = useful_rows(xTs, [0])
+    xTrain = useful_rows(xT, [1])
+    xTest = useful_rows(xTs, [1])
 
-    # slope, b = linear_reg(xTrain, yTrain)
-    # test_linear(slope, b, xTest, yTest, xTest_names)
+    slope, b = linear_reg(xTrain, yTrain)
+    test_linear(slope, b, xTest, yTest, xTest_names)
 
-    # # SKLEARN - Linear
-    # xTrain = np.array(xTrain)
-    # yTrain = np.array(yTrain)
-    # xTrain = xTrain.reshape(-1, 1)
-    # yTrain = yTrain.reshape(-1, 1)
 
-    # xTest = np.array(xTest)
-    # yTest = np.array(yTest)
-    # xTest = xTest.reshape(-1, 1)
-    # yTest = yTest.reshape(-1, 1)
+    print("KNN (NOT SKLEARN)")
+    knn_sleepers = []
+    y_knn = get_column(table, 10)
+    x_knn = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_knn, y_knn, test_size=1/3, random_state=0)
 
-    # linearRegressor.fit(xTrain, yTrain)
-    # yPrediction = linearRegressor.predict(xTest)
-    # accuracy = linearRegressor.score(xTest, yTest)
+    knn_test_names = useful_rows(xTs, [0])
+    # Normalize our X
+    for idx, row in enumerate(xT):
+        for ind, i in enumerate(row[1:-1]):
+            xs = get_column(xT, ind+1)
+            xT[idx][ind+1] = normalize(xs, i)
+    for idx, row in enumerate(xTs):
+        for ind, i in enumerate(row[1:-1]):
+            xs = get_column(xTs, ind+1)
+            xTs[idx][ind+1] = normalize(xs, i)
 
-    # print(accuracy)
-    # plot.scatter(xTrain, yTrain, color='red')
-    # plot.plot(xTrain, linearRegressor.predict(xTrain), color='blue')
-    # plot.title('Sleeper vs Net Rating')
-    # plot.xlabel('Net Rating')
-    # plot.ylabel('Sleep')
-    # plot.show()
-    # print("\n \n \n \n \n")
+    xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9,10])
+    knn_acc = 0
+    for idx, row in enumerate(xTs):
+        pred = knn(xT, row[1:], 13)
+        if pred == row[-1]:
+            knn_acc += 1
+            if pred == 1 and row[-1] == 1:
+                knn_sleepers.append(knn_test_names[idx])
 
-    # print("KNN (NOT SKLEARN)")
-    # knn_sleepers = []
-    # y_knn = get_column(table, 10)
-    # x_knn = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    # xT, xTs, yTrain, yTest = train_test_split(
-    #     x_knn, y_knn, test_size=1/3, random_state=0)
+    print("KNN Accuracy: ", knn_acc/len(xTs))
+    print("KNN Sleepers:", knn_sleepers)
+    print("\n \n \n \n \n")
 
-    # knn_test_names = useful_rows(xTs, [0])
-    # # Normalize our X
-    # for idx, row in enumerate(xT):
-    #     for ind, i in enumerate(row[1:-1]):
-    #         xs = get_column(xT, ind+1)
-    #         xT[idx][ind+1] = normalize(xs, i)
-    # for idx, row in enumerate(xTs):
-    #     for ind, i in enumerate(row[1:-1]):
-    #         xs = get_column(xTs, ind+1)
-    #         xTs[idx][ind+1] = normalize(xs, i)
+    naive_sleepers = []
 
-    # xT = useful_rows(xT, [1,2,3,4,5,6,7,8,9,10])
-    # knn_acc = 0
-    # for idx, row in enumerate(xTs):
-    #     pred = knn(xT, row[1:], 10)
-    #     if pred == row[-1]:
-    #         knn_acc += 1
-    #         if pred == 1 and row[-1] == 1:
-    #             knn_sleepers.append(knn_test_names[idx])
+    print("NAIVE BAYES (NOT SKLEARN)")
+    y_naive = get_column(table, 10)
+    x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    xT, xTs, yTrain, yTest = train_test_split(
+        x_naive, y_naive, test_size=1/3, random_state=0)
 
-    # print("KNN Accuracy: ", knn_acc/len(xTs))
-    # print("KNN Sleepers:", knn_sleepers)
-    # print("\n \n \n \n \n")
+    naive_test_names = useful_rows(xTs, [0])
+    xT = useful_rows(xT, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    xTs = useful_rows(xTs, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
-    # print("NAIVE BAYES (NOT SKLEARN)")
-    # y_naive = get_column(table, 10)
-    # x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    # xT, xTs, yTrain, yTest = train_test_split(
-    #     x_naive, y_naive, test_size=1/3, random_state=0)
+    summary = summarizeByClass(xT)
+    naive_acc = 0
+    for idx, row in enumerate(xTs):
+        p = predict(summary, row)
+        if p == row[-1]:
+            naive_acc += 1
+            if pred == 1 and row[-1] == 1:
+                naive_sleepers.append(naive_test_names[idx])
+    print("Accuracy: ", naive_acc/len(xTs))
 
-    # naive_test_names = useful_rows(xTs, [0])
-    # xT = useful_rows(xT, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    # xTs = useful_rows(xTs, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-
-    # summary = summarizeByClass(xT)
-    # naive_acc = 0
-    # for idx, row in enumerate(xTs):
-    #     p = predict(summary, row)
-    #     if p == row[-1]:
-    #         naive_acc += 1
-    #     print(naive_test_names[idx], " Predict: ",
-    #           p, " Actual: ", row[-1])
-    # print("Accuracy: ", naive_acc/len(xTs))
-
-    # ensemble(table)
-
+    ensemble(table)
+    sklearn_linear(table)
+    sklearn_naive(table)
     sklearn_knn(table)
