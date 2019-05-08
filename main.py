@@ -17,6 +17,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 from matplotlib.colors import ListedColormap
+from sklearn.metrics import classification_report
+
 matplotlib.style.use('ggplot') 
 
 headers = ['player_name', 'college', 'draft_year', 'draft_round', 'draft_number',
@@ -233,30 +235,7 @@ def summarizeByClass(dataset):
     summaries = {}
     for classValue, instances in separated.items():
         summaries[classValue] = summarize(instances)
-    return summaries
-
-
-def naive_bayes(table):
-    test_names = []
-    train_x = []
-    test_x = []
-    train, test = compute_holdout_partitions(table)
-    for row in train:
-        train_x.append(row[1::])
-
-    for row in test:
-        test_names.append(row[0])
-        test_x.append(row[1::])
-
-    summary = summarizeByClass(train_x)
-    acc = 0
-    for idx, row in enumerate(test_x):
-        p = predict(summary, row)
-        if abs(p - row[-1]) <= 7:
-            acc += 1
-        print(test_names[idx], " Predict: ", p, " Actual: ", row[-1])
-    print("Accuracy: ", acc/len(test_x))
-
+    return summaries    
 
 def predict(summaries, inputVector):
     probabilities = calculateClassProbabilities(summaries, inputVector)
@@ -301,6 +280,13 @@ def sklearn_knn(table):
         for ind, i in enumerate(row):
             xs = get_column(xTs, ind)
             xTs[idx][ind] = normalize(xs, i)
+
+    knn = KNeighborsClassifier(n_neighbors=13)
+    knn.fit(xT, yTrain)
+    y_pred = knn.predict(xTs)
+    print("KNN ACCRUACY k=13: ", metrics.accuracy_score(yTest, y_pred))
+    print(classification_report(yTest, y_pred))
+
     scores = []
 
     for k in range(1,15):
@@ -313,6 +299,7 @@ def sklearn_knn(table):
     plt.xlabel('Value of K for KNN')
     plt.ylabel('Testing Accuracy')
     plt.show()
+
 
 
 def sklearn_naive(table):
@@ -330,10 +317,7 @@ def sklearn_naive(table):
     y_pred = gnb.predict(xTs)
     score = metrics.accuracy_score(yTest, y_pred)
     print("SKLEARN NAIVE ACCURACY: ", score)
-
-    plt.hist([yTest, y_pred], bins=np.linspace(0, 1, 5), label=['Actual', 'Prediction'])
-    plt.legend(loc='upper right')
-    plt.show()
+    print(classification_report(yTest, y_pred))
 
 
 
@@ -395,7 +379,10 @@ def useful_rows(table, idxs):
 
 
 def sklearn_linear(table):
+    print("##############")
     print("SKLEARN LINEAR")
+    print("##############")
+
     y_values = get_column(table, 10)
     x_values = useful_rows(table, [0, 5])
 
@@ -417,16 +404,8 @@ def sklearn_linear(table):
 
     linearRegressor.fit(xTrain, yTrain)
     yPrediction = linearRegressor.predict(xTest)
-
-    plot.scatter(xTrain, yTrain, color='red')
-    plot.plot(xTrain, linearRegressor.predict(xTrain), color='blue')
-    plot.title('Sleeper vs Net Rating')
-    plot.xlabel('Net Rating')
-    plot.ylabel('Sleep')
-    plot.show()
-
-    print(metrics.accuracy_score(yTest, yPrediction))
-
+    yPrediction = [1 if i >= .5 else 0 for i in yPrediction]
+    print("Accuracy Score:", metrics.accuracy_score(yTest, yPrediction))
     print("\n \n \n \n \n")
 
 
@@ -454,12 +433,69 @@ def sleeper_definer(players):
         elif player_draft == "LOTTERY" and v.net_rating > avgs["TOP 5"]:
             players[k].sleeper = 1
 
+def data_analysis(players, table):
+    # ########################################################
+    # Net Rating vs Draft pick defining how we do our sleepers
+    # ########################################################
+    avgs = {"TOP 5": [],  "LOTTERY": [],
+            "LATE FIRST ROUND": [], "SECOND ROUND": [], "UNDRAFTED": []}
 
-if __name__ == '__main__':
-    players = org_players('all_seasons.csv', headers)
-    sleeper_definer(players)
-    table = sort_to_table(players)
+    for k, v in players.items():
 
+        player_draft = draft_converter(int(v.draft_number))
+        avgs[player_draft].append(v.net_rating)
+
+    for k, v in avgs.items():
+        avgs[k] = sum(v)/len(v)
+    
+    y = [ v for k, v in avgs.items()]
+    x = [ k for k, v in avgs.items()]
+
+    plot.plot(x, y, color='blue')
+    plot.title('Net Rating vs Draft Spot')
+    plot.xlabel('Draft Pick')
+    plot.ylabel('Net Rating')
+    plot.show()
+
+
+
+    # ########################################################
+    # AMOUNT OF PEOPLE IN DRAFT AT THE NUMBER OF IT 
+    # ########################################################
+    freq = {}
+    for p in table:
+        if p[9] in freq:
+            freq[p[9]] += 1
+        else:
+            freq[p[9]] = 1
+
+    y = np.array([v for k,v in freq.items()])
+    x = np.array([k for k,v in freq.items()])
+
+
+    plt.bar(x, y, color='green')
+    plt.xlabel("Draft Number")
+    plt.ylabel("Count")
+    plt.title("Frequency of Draft Numbers")
+    plt.show()
+
+    # ########################################################
+    # Which value was more important in usuage vs net rating
+    # ########################################################
+
+
+    y = [p[6] for p in table]
+    x = [p[5] for p in table]
+
+    plt.scatter(y, x, alpha=0.5)
+    plt.ylabel("Net Rating")
+    plt.xlabel("Usage Percentage")
+    plt.title("Net Rating vs Usage Percentage")
+    plt.show()
+
+
+
+def linear(table):
     print("LINEAR (NOT SKLEARN)")
     y_values = get_column(table, 10)
     x_values = useful_rows(table, [0, 5])
@@ -473,8 +509,9 @@ if __name__ == '__main__':
 
     slope, b = linear_reg(xTrain, yTrain)
     test_linear(slope, b, xTest, yTest, xTest_names)
+    print("\n \n \n \n \n")
 
-
+def knn_ex(table):
     print("KNN (NOT SKLEARN)")
     knn_sleepers = []
     y_knn = get_column(table, 10)
@@ -506,8 +543,9 @@ if __name__ == '__main__':
     print("KNN Sleepers:", knn_sleepers)
     print("\n \n \n \n \n")
 
-    naive_sleepers = []
 
+def naive_bayes(table):
+    naive_sleepers = []
     print("NAIVE BAYES (NOT SKLEARN)")
     y_naive = get_column(table, 10)
     x_naive = useful_rows(table, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
@@ -524,9 +562,19 @@ if __name__ == '__main__':
         p = predict(summary, row)
         if p == row[-1]:
             naive_acc += 1
-            if pred == 1 and row[-1] == 1:
+            if p == 1 and row[-1] == 1:
                 naive_sleepers.append(naive_test_names[idx])
     print("Accuracy: ", naive_acc/len(xTs))
+
+if __name__ == '__main__':
+    players = org_players('all_seasons.csv', headers)
+    sleeper_definer(players)
+    table = sort_to_table(players)
+    
+    data_analysis(players, table)
+    linear(table)
+    knn_ex(table)
+    naive_bayes(table)
 
     ensemble(table)
     sklearn_linear(table)
